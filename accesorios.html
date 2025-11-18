@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="icon" href="ASSETS/IMG/Carla-Rodriguez-Sailor-Moon-Eternal-moon.512.png" type="image/x-png">
+    <link rel="stylesheet" href="ASSETS/CSS/carrito.css">
+    <title>Magical Alliance</title>
+
+</head>
+
+<body>
+    <div class="container-fluid p-0 m-0">
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark"> <!--navbar del inicio responsivo-->
+                <div class="container-fluid">
+                
+                    <a class="navbar-brand p-2" href="home.html"> <!--Nombre de la pagina titulo mas icono fijos-->
+                        <img src="ASSETS/IMG/Carla-Rodriguez-Sailor-Moon-Eternal-moon.512.png" class="d-inline align-top img-fluid ms-2" width="40" height="40"  alt="">
+                        <h2 class="d-inline p-2 fw-bolder text-wrap" id="titulo">Magical Alliance</h2>
+                    </a>
+                    
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" 
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"> <!--botón en pantallas pequeñas, con data bs toggle indica que controlora un componente colapso
+                    en cambio el target le dice en cual id actura para colapsar, por ultimo los aria son atributos para accesibilidad-->
+                    <span class="navbar-toggler-icon"></span> <!--icono sandwish-->
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav"> <!--envuelve los elementos del menú que se colapsarán.-->
+                        <ul class="navbar-nav me-auto"> <!--empuja hacia la derecha, dejando espacio al logo-->
+                            <li class="nav-item"> <!--navegacion del navbar-->
+                                <a class="nav-link link-light fw-bolder text-secondary" href="home.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link link-light fw-bolder text-secondary" href="home.html#sobreNosotros">Acerca de Nosotros</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link link-light fw-bolder text-secondary" href="#">Productos</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link link-light fw-bolder text-secondary" href="contacto.html">Contáctanos</a>
+                            </li>
+                        </ul>
+                    </div>
+                  
+                    <div class="navbar-nav ms-auto"><!--crea un margen automatico en izq que la empuja hasta el final de la barra-->
+                        <a class="btn btn-dark" href="#"> <!--boton para que al pasar mouse se note que esta escogiendo el correcto-->
+                            <img src="ASSETS/IMG/inicio sesion.png" class="d-inline align-top img-fluid" width="40" height="40" alt="">
+                        </a>
+                        
+                        <a class="btn btn-dark carrito" href="#"> <!--agrego clase carrito para css-->
+                            <img src="ASSETS/IMG/carrito.png" class="d-inline align-top img-fluid" width="40" height="40" alt="">
+                            <span id="numeroCarrito" data-action="cart-add" class="badge rounded-circle">0</span>
+                            <!--doy id a mi numero de carrito, aplico atributo personalizado al carrito, con un icono redondo en la parte superior -->
+                        </a>
+              
+                    </div>
+
+                </div>
+            </nav>
+        </header>
+
+        <main> 
+            <!--portada accesorios con descripcion jumbotrom-->
+            <div class="container-fluid text-center mt-5">
+                <h1 class="display-3">Accesorios</h1>
+                <p class="lead fst-italic">Los accesorios no son solo complementos, son la expresión más auténtica de tu estilo. 
+                    En nuestra colección encontrarás piezas diseñadas para resaltar lo mejor de ti: elegantes, modernas y 
+                    llenas de personalidad. Cada detalle importa, por eso seleccionamos cuidadosamente artículos que transforman 
+                    cualquier look en una declaración de moda. Descubre cómo un toque único puede cambiarlo todo
+                </p>
+                <hr>
+            </div>
+
+            <section><!--cartas de presentacion de productos de accesorios = que cosmeticos -->
+
+                <div class="row row-cols-sm-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-4 "><!--crea fila con columnas con responsive-->
+
+                    <div class="col justify-content-center"> <!--le dice que es columna con contenido centrado-->
+                        <article class="card shadow text-center rounded-5 m-3"> <!--carta y texto centrado separadas por articulos con sombra y redondeado-->
+                            <img src="ASSETS/IMG/baculo.png" class=" img-fluid mx-auto" height="200px" width="200px">
+                            <div class="card-body"> <!--le da info a mi carta-->
+                                <h5 class="card-title">Cosmético 1</h5>
+                                <p class="card-text">Un texto de ejemplo rápido para colocal cerca del Cosmetico 1 y componer la mayor parte del contenido de la tarjeta.</p>
+                                <a href="#" class="btn btn-primary">Añadir al carrito</a>
+                            </div>
+                        </article>
+                    </div>
+
+                    <div class="col justify-content-center">
+                        <article class="card shadow text-center rounded-5 m-3"> 
+                            <img src="ASSETS/IMG/baculo.png" class=" img-fluid mx-auto" height="200px" width="200px">
+                            <div class="card-body"> 
+                                <h5 class="card-title">Cosmético 1</h5>
+                                <p class="card-text">Un texto de ejemplo rápido para colocal cerca del Cosmetico 1 y componer la mayor parte del contenido de la tarjeta.</p>
+                                <a href="#" class="btn btn-primary">Añadir al carrito</a>
+                            </div>
+                        </article>
+                    </div>
+
+                    <div class="col justify-content-center">
+                        <article class="card shadow text-center rounded-5 m-3"> 
+                            <img src="ASSETS/IMG/baculo.png" class=" img-fluid mx-auto" height="200px" width="200px">
+                            <div class="card-body"> 
+                                <h5 class="card-title">Cosmético 1</h5>
+                                <p class="card-text">Un texto de ejemplo rápido para colocal cerca del Cosmetico 1 y componer la mayor parte del contenido de la tarjeta.</p>
+                                <a href="#" class="btn btn-primary">Añadir al carrito</a>
+                            </div>
+                        </article>
+                    </div>
+
+                    <div class="col justify-content-center">
+                        <article class="card shadow text-center rounded-5 m-3"> 
+                            <img src="ASSETS/IMG/baculo.png" class=" img-fluid mx-auto" height="200px" width="200px">
+                            <div class="card-body"> 
+                                <h5 class="card-title">Cosmético 1</h5>
+                                <p class="card-text">Un texto de ejemplo rápido para colocal cerca del Cosmetico 1 y componer la mayor parte del contenido de la tarjeta.</p>
+                                <a href="#" class="btn btn-primary">Añadir al carrito</a>
+                            </div>
+                        </article>
+                    </div>
+
+                    <div class="col justify-content-center">
+                        <article class="card shadow text-center rounded-5 m-3"> 
+                            <img src="ASSETS/IMG/baculo.png" class=" img-fluid mx-auto" height="200px" width="200px">
+                            <div class="card-body"> 
+                                <h5 class="card-title">Cosmético 1</h5>
+                                <p class="card-text">Un texto de ejemplo rápido para colocal cerca del Cosmetico 1 y componer la mayor parte del contenido de la tarjeta.</p>
+                                <a href="#" class="btn btn-primary">Añadir al carrito</a>
+                            </div>
+                        </article>
+                    </div>
+
+                    <div class="col justify-content-center">
+                        <article class="card shadow text-center rounded-5 m-3"> 
+                            <img src="ASSETS/IMG/baculo.png" class=" img-fluid mx-auto" height="200px" width="200px">
+                            <div class="card-body"> 
+                                <h5 class="card-title">Cosmético 1</h5>
+                                <p class="card-text">Un texto de ejemplo rápido para colocal cerca del Cosmetico 1 y componer la mayor parte del contenido de la tarjeta.</p>
+                                <a href="#" class="btn btn-primary">Añadir al carrito</a>
+                            </div>
+                        </article>
+                    </div>
+
+                    <div class="col justify-content-center">
+                        <article class="card shadow text-center rounded-5 m-3"> 
+                            <img src="ASSETS/IMG/baculo.png" class=" img-fluid mx-auto" height="200px" width="200px">
+                            <div class="card-body"> 
+                                <h5 class="card-title">Cosmético 1</h5>
+                                <p class="card-text">Un texto de ejemplo rápido para colocal cerca del Cosmetico 1 y componer la mayor parte del contenido de la tarjeta.</p>
+                                <a href="#" class="btn btn-primary">Añadir al carrito</a>
+                            </div>
+                        </article>
+                    </div>
+
+                    <div class="col justify-content-center">
+                        <article class="card shadow text-center rounded-5 m-3"> 
+                            <img src="ASSETS/IMG/baculo.png" class=" img-fluid mx-auto" height="200px" width="200px">
+                            <div class="card-body"> 
+                                <h5 class="card-title">Cosmético 1</h5>
+                                <p class="card-text">Un texto de ejemplo rápido para colocal cerca del Cosmetico 1 y componer la mayor parte del contenido de la tarjeta.</p>
+                                <a href="#" class="btn btn-primary">Añadir al carrito</a>
+                            </div>
+                        </article>
+                    </div>
+
+                </div>
+
+            </section>
+            
+
+
+
+
+        </main>
+
+
+        <footer class="border-top border-3 ps-3 mt-5">
+            <div class="container-fluid row row-cols-3 flex-row d-flex justify-content-center align-items-center text-body-secondary mt-1 vh-50">
+                <div class=" flex-column d-flex align-items-center align-items-lg-start ps-3 pt-2 mx-auto col-12 col-sm-6 col-md-4 col-lg-4"> <!--se alinean item en 
+                    pantallas pequeñas y en grandes vuelve a su forma original al costado izq gracias al aling item star-->
+                    <p class="fw-bolder text-md-center">
+                        Siguenos en nuestras paginas
+                    </p>
+                    <a href="#">
+                        <img src="ASSETS/IMG/face.png" alt="" class="img-fluid float-start" width="50px" height="50px">
+                        <h5 class="text-lg-center d-inline-block text-decoration-none ps-2 py-3">Magical_Alliance</h5>
+                    </a>
+                    <a href="#">
+                        <img src="ASSETS/IMG/insta.png" alt="" class="img-fluid float-start" width="50px" height="50px">
+                        <h5 class="text-lg-center d-inline-block text-decoration-none ps-2 py-3">MagicAlliance</h5>
+                    </a>
+                    <a href="#">
+                        <img src="ASSETS/IMG/pinterest.png" alt="" class="img-fluid float-start" width="50px" height="50px">
+                        <h5 class="text-lg-center d-inline-block text-decoration-none ps-2 py-3">MagicAlliance</h5>
+                    </a>
+                    <a href="#">
+                        <img src="ASSETS/IMG/wsp.png" alt="" class="img-fluid float-start" width="50px" height="50px">
+                        <h5 class="text-lg-center d-inline-block text-decoration-none ps-2 py-3">Magical Alliance</h5>
+                    </a>
+                </div>    
+
+                <div class="flex-column d-flex mx-auto col-12 col-sm-6 col-md-4 col-lg-4">
+                    <img src="ASSETS/IMG/logo.png" alt="Magical Alliance" class="rounded img-fluid" width="400px" height="400px">
+                </div>
+
+                <form class="mx-auto align-items-center pe-3 flex-column d-flex col-12 col-sm-6 col-md-4 col-lg-4">
+                    <div>
+                        <label for="email" class="form-label fw-bolder">Enterate de nuestras promociones y novedades</label>
+                        <input type="email" class="form-control" id="emailSubscripcion" placeholder="nombre@ejemplo.com">
+                    </div>
+                    <div class="row justify-content-center mt-2">
+                        <button type="submit" class="btn btn-light fw-bolder w-100">Subscribete</button>
+                    </div>
+                </form>
+
+            </div>
+
+            <div class="container-fluid d-flex justify-content-center align-content-center mt-3">
+                <h6 class="text-lg-center fst-italic fw-bolder">&copy; 2025 Magical Alliance todos los derechos reservados.</h6>
+            </div>
+
+        </footer>
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" 
+     integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="ASSETS/JS/ecommerce.js"></script>
+</body>
+</html>

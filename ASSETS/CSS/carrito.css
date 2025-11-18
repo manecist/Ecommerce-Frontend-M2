@@ -1,0 +1,18 @@
+.carrito {
+  position: relative; /*picision de relacion con el boton*/
+}
+
+#numeroCarrito {  /*esatico, dimensionado a su sitio, color fondo rosa y blanco el numero, responsive, alineado*/
+  position: absolute; 
+  top: 0px; 
+  left: 55%;
+  background: rgb(249, 21, 162);
+  width: 15px;
+  height: 15px;
+  border-radius: 50%; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  padding: 2px;
+}

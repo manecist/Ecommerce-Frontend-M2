@@ -1,0 +1,8 @@
+.carousel-indicators{
+    position: absolute; /*posicion fija*/
+    bottom: -50px; /* ajuste de indicador hacia abajo de la imagen */
+
+    [data-bs-target]{
+        background-color: brown; /*color cafe para mi indicador*/
+    }
+}
