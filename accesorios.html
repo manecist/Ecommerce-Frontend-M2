@@ -27,19 +27,29 @@
                     en cambio el target le dice en cual id actura para colapsar, por ultimo los aria son atributos para accesibilidad-->
                     <span class="navbar-toggler-icon"></span> <!--icono sandwish-->
                     </button>
+
                     <div class="collapse navbar-collapse" id="navbarNav"> <!--envuelve los elementos del menú que se colapsarán.-->
+
                         <ul class="navbar-nav me-auto"> <!--empuja hacia la derecha, dejando espacio al logo-->
                             <li class="nav-item"> <!--navegacion del navbar-->
-                                <a class="nav-link link-light fw-bolder text-secondary" href="index.html">Home</a>
+                                <a class="btn btn-dark link-light fw-bolder text-light" href="index.html">Home</a>
+                            </li>
+                            <li class="nav-item ">
+                                <a class="btn btn-dark link-light fw-bolder text-light" href="index.html#sobreNosotros">Acerca de Nosotros</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link link-light fw-bolder text-secondary" href="index.html#sobreNosotros">Acerca de Nosotros</a>
+                                <div class="dropdown ">
+                                    <a class="btn btn-dark dropdown-toggle fw-bolder text-light" id="navbarDropdown" type="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">Productos</a>
+                                    <ul class="dropdown-menu dropdown-menu-dark " aria-labelledby="navbarDropdown">
+                                        <li><a class="dropdown-item link-light" href="cosmeticos.html">Cosméticos</a></li>
+                                        <li><a class="dropdown-item link-light" href="vestuario.html">Vestuario</a></li>
+                                        <li><a class="dropdown-item link-light" href="accesorios.html">Accesorios</a></li>
+                                    </ul>
+                                </div>
                             </li>
-                            <li class="nav-item">
-                                <a class="nav-link link-light fw-bolder text-secondary" href="#">Productos</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link link-light fw-bolder text-secondary" href="contacto.html">Contáctanos</a>
+                            <li class="nav-item ">
+                                <a class="btn btn-dark link-light fw-bolder text-light" href="contacto.html">Contáctanos</a>
                             </li>
                         </ul>
                     </div>
@@ -56,7 +66,6 @@
                         </a>
               
                     </div>
-
                 </div>
             </nav>
         </header>

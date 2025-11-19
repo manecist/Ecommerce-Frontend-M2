@@ -15,6 +15,7 @@
     <div class="container-fluid p-0 m-0">
         <header>
             <nav class="navbar navbar-expand-lg navbar-dark bg-dark"> <!--navbar del inicio responsivo-->
+
                 <div class="container-fluid">
                 
                     <a class="navbar-brand p-2" href="index.html"> <!--Nombre de la pagina titulo mas icono fijos-->
@@ -27,25 +28,28 @@
                     en cambio el target le dice en cual id actura para colapsar, por ultimo los aria son atributos para accesibilidad-->
                     <span class="navbar-toggler-icon"></span> <!--icono sandwish-->
                     </button>
+
                     <div class="collapse navbar-collapse" id="navbarNav"> <!--envuelve los elementos del menú que se colapsarán.-->
                         <ul class="navbar-nav me-auto"> <!--empuja hacia la derecha, dejando espacio al logo-->
                             <li class="nav-item"> <!--navegacion del navbar-->
-                                <a class="nav-link link-light fw-bolder text-secondary" href="index.html">Home</a>
+                                <a class="btn btn-dark link-light fw-bolder text-light" href="index.html">Home</a>
+                            </li>
+                            <li class="nav-item ">
+                                <a class="btn btn-dark link-light fw-bolder text-light" href="index.html#sobreNosotros">Acerca de Nosotros</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link link-light fw-bolder text-secondary" href="index.html#sobreNosotros">Acerca de Nosotros</a>
+                                <div class="dropdown ">
+                                    <a class="btn btn-dark dropdown-toggle fw-bolder text-light" id="navbarDropdown" type="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">Productos</a>
+                                    <ul class="dropdown-menu dropdown-menu-dark " aria-labelledby="navbarDropdown">
+                                        <li><a class="dropdown-item link-light" href="cosmeticos.html">Cosméticos</a></li>
+                                        <li><a class="dropdown-item link-light" href="vestuario.html">Vestuario</a></li>
+                                        <li><a class="dropdown-item link-light" href="accesorios.html">Accesorios</a></li>
+                                    </ul>
+                                </div>
                             </li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link link-light dropdown-toggle fw-bolder text-secondary" href="#" id="navbarDropdown" role="button" 
-                                data-bs-toggle="dropdown" aria-expanded="false">Productos</a>
-                                <ul class="dropdown-menu-dark " aria-labelledby="navbarDropdown">
-                                    <li><a class="dropdown-item link-light" href="cosmeticos.html">Cosméticos</a></li>
-                                    <li><a class="dropdown-item link-light" href="vestuario.html">Vestuario</a></li>
-                                    <li><a class="dropdown-item link-light" href="accesorios.html">Accesorios</a></li>
-                                </ul>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link link-light fw-bolder text-secondary" href="contacto.html">Contáctanos</a>
+                            <li class="nav-item ">
+                                <a class="btn btn-dark link-light fw-bolder text-light" href="contacto.html">Contáctanos</a>
                             </li>
                         </ul>
                     </div>
@@ -70,7 +74,7 @@
         
         <main>  
            <!--Carrusel de inicio de home con titulo de la trmatica a visualizar: cosmeticos-->
-            <Section class="m-5 container-fluid">
+            <Section class="m-5">
                 <h2 class="text-center m-5 display-6"><a href="cosmeticos.html" class="text-decoration-none link-secondary text-black">Cosméticos</a></h2>    
                 <!--estoy referenciando mi siguiente pagina html de cosmeticos de mi proyecto-->
                 <div id="carroCosmeticos" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
@@ -150,7 +154,7 @@
             </Section>
 
             <!--segundo carrusel con otra tematica ver: vestuario codigo copiado del primer item cosmeticos, funcionan iguales-->
-            <Section class="m-5 container-fluid"> 
+            <Section class="m-5"> 
                 <h2 class="text-center m-5 display-6"><a href="vestuario.html" class="text-decoration-none link-secondary text-black">Vestuario</a></h2>  
                 
                 <div id="carroVestuario" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
@@ -227,7 +231,7 @@
             </Section>
 
             <!--tercer carrusel con la ultima tematica: accesorios, donde tambien el codigo es copiado del primer item cosmeticos, funcionan iguales-->
-            <Section class="m-5 container-fluid"> 
+            <Section class="m-5"> 
 
                 <h2 class="text-center m-5 display-6"><a href="accesorios.html" class="text-decoration-none link-secondary text-black">Accesorios</a></h2>  
                 <div id="carroAccesorios" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
