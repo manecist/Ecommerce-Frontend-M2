@@ -1,0 +1,88 @@
+.body {
+  background-image: url(file:///C:/Users/Maria/OneDrive/Desktop/curso%20java/PROYECTOS/Ecommerce-Frontend-M2/ASSETS/IMG/fondosinl.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  /* Para asegurarte de que el body ocupe toda la pantalla */
+  min-height: 100vh;
+}
+
+.colorFondoBoton { /* color base del div boton home dimensionado*/
+  border-radius: 20px; /* da borden redondo */
+  background-color: darkviolet; /* da color base */
+  width: 315px; /* ancho */
+}
+
+.btn-group .btn {
+  border-radius: 20px; /* da borden redondo */
+  background-color:transparent; /* fondo transparente */
+  border: none; /* Sin borden */
+  color: black; /* color letra */
+  transition: border-radius 0.3s ease; /* Suaviza la transición */
+}
+
+#boton1:hover {
+  border-radius: 50px; /* Aplica bordes redondeados al pasar el ratón */
+  background-color: blueviolet; /* color de hover */
+}
+
+#boton2:hover {
+  border-radius: 50px; /* Aplica bordes redondeados al pasar el ratón */
+  background-color: blueviolet;/* color de hover */
+}
+
+#boton3:hover {
+  border-radius: 50px; /* Aplica bordes redondeados al pasar el ratón */
+  background-color: blueviolet;/* color de hover */
+}
+
+#comienzoHome { /* estilo a mi tipo jumbotrom */
+  border-radius: 30px; /* da borden redondo */
+  background-color: rgb(253, 197, 242);
+  color: black;
+
+}
+
+#tipBelleza {/* estilo a mi tipo jumbotrom en tips belleza */
+  border-radius: 30px; /* da borden redondo */
+  background-color: rgb(170, 200, 255);
+  color: black;
+
+}
+
+#tipSombra {/* estilo a mi tipo jumbotrom en tips belleza */
+  border-radius: 30px; /* da borden redondo */
+  background-color: rgb(217, 170, 255);
+  color: black;
+
+}
+
+#tipSkingCare{/* estilo a mi tipo jumbotrom en tips belleza */
+  border-radius: 30px; /* da borden redondo */
+  background-color: rgb(164, 225, 208);
+  color: black;
+
+}
+
+.imagenTips{
+  border-radius: 100px;
+
+}
+
+.card {
+  border: none;
+  border-radius: 30px;
+  margin: 70px;
+  padding-top: 50px;
+  background-color: bisque;
+
+}
+
+#anteFinal {
+  border: none;
+  border-radius: 30px;
+  margin: 70px;
+  padding-top: 50px;
+  background-color: rgb(253, 200, 235);
+
+}

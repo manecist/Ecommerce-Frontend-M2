@@ -6,8 +6,9 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" 
     integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <link rel="icon" href="ASSETS/IMG/Carla-Rodriguez-Sailor-Moon-Eternal-moon.512.png" type="image/x-png">
-    <link rel="stylesheet" href="ASSETS/CSS/carrusel.css">
-    <link rel="stylesheet" href="ASSETS/CSS/carrito.css">
+    <link rel="stylesheet" href="ASSETS/CSS/Carrusel.css">
+    <link rel="stylesheet" href="ASSETS/CSS/Carrito.css">
+    <link rel="stylesheet" href="ASSETS/CSS/EstiloHome.css">
     <title>Magical Alliance</title>
 </head>
 
@@ -49,6 +50,9 @@
                                 </div>
                             </li>
                             <li class="nav-item ">
+                                <a class="btn btn-dark link-light fw-bolder text-light" href="index.html#tipBelleza">Tips de Belleza</a>
+                            </li>
+                            <li class="nav-item ">
                                 <a class="btn btn-dark link-light fw-bolder text-light" href="contacto.html">Contáctanos</a>
                             </li>
                         </ul>
@@ -73,10 +77,34 @@
 
         
         <main>  
-           <!--Carrusel de inicio de home con titulo de la trmatica a visualizar: cosmeticos-->
-            <Section class="m-5">
-                <h2 class="text-center m-5 display-6"><a href="cosmeticos.html" class="text-decoration-none link-secondary text-black">Cosméticos</a></h2>    
-                <!--estoy referenciando mi siguiente pagina html de cosmeticos de mi proyecto-->
+            
+            <!--Botones referenciado con a encerrados en div ovalado para tener hover mas atractivo al pasar el mouse-->
+            <Div class="colorFondoBoton container mt-4">
+                <div class="btn-group" role="group" aria-label="Grupo de botones con opciones">
+                    <a id="boton1" type="button" class="btn btn-primary" href="accesorios.html" >Accesorios</a>
+                    <a id="boton2" type="button" class="btn btn-primary" href="cosmeticos.html" >Cosméticos</a>
+                    <a id="boton3" type="button" class="btn btn-primary" href="vestuario.html" >Vestuario</a>
+                </div>
+            </Div>
+
+
+            <!--portada con descripcion jumbotrom magic alliance-->
+            <div class="container-fluid d-flex">
+                <div class="container text-center mt-5 mx-auto pt-2 shadow " id="comienzoHome"> <!--contenedor adaptable por responsive, texto centrado y letra cursiva-->
+                    <img src="ASSETS/IMG/logottttt.png" alt="" class="img-fluid pt-3" width="400px" height="400px">
+                    <div class="lead fst-italic mt-4">
+                    ¿Recuerdas la magia de la transformación? Inspirada en la fuerza estelar de Sailor Moon y el encanto dulce de Sakura 
+                    Card Captor, Magic Alliance es una invitación a vivir tu propia fantasía, desde tu estilo hasta tu look.
+                    Descubre la alianza perfecta entre belleza, moda y magia. Transforma tu look en de pies a cabeza. 
+                    <p class="fw-bolder fst-italic pb-3">¡¡Es hora de dejar que tu luz brille!!</p>
+                    </div>
+                </div>
+            </div>
+
+
+           <!--Carrusel de inicio de home con titulo de la trmatica a visualizar: accesorios-->
+            <Section class="m-5 mb-5">
+                
                 <div id="carroCosmeticos" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
 
                     <!--marcadores y navegacion de la pagina que se visualiza en el carrusel-->
@@ -84,6 +112,19 @@
                         <button type="button" data-bs-target="#carroCosmeticos" data-bs-slide-to="0" class="active"></button>
                         <button type="button" data-bs-target="#carroCosmeticos" data-bs-slide-to="1" ></button>
                         <button type="button" data-bs-target="#carroCosmeticos" data-bs-slide-to="2" ></button>
+                        <button type="button" data-bs-target="#carroCosmeticos" data-bs-slide-to="3" ></button>
+                        <button type="button" data-bs-target="#carroCosmeticos" data-bs-slide-to="4" ></button>
+                        <button type="button" data-bs-target="#carroCosmeticos" data-bs-slide-to="5" ></button>
+                        <button type="button" data-bs-target="#carroCosmeticos" data-bs-slide-to="6" ></button>
+                        <button type="button" data-bs-target="#carroCosmeticos" data-bs-slide-to="7" ></button>
+                        <button type="button" data-bs-target="#carroCosmeticos" data-bs-slide-to="8" ></button>
+                        <button type="button" data-bs-target="#carroCosmeticos" data-bs-slide-to="9" ></button>
+                        <button type="button" data-bs-target="#carroCosmeticos" data-bs-slide-to="10" ></button>
+                        <button type="button" data-bs-target="#carroCosmeticos" data-bs-slide-to="11" ></button>
+                        <button type="button" data-bs-target="#carroCosmeticos" data-bs-slide-to="12" ></button>
+                        <button type="button" data-bs-target="#carroCosmeticos" data-bs-slide-to="13" ></button>
+                        <button type="button" data-bs-target="#carroCosmeticos" data-bs-slide-to="14" ></button>
+                        <button type="button" data-bs-target="#carroCosmeticos" data-bs-slide-to="15" ></button>
                     </div>
 
                     <div class="carousel-inner"><!--primer slide o pagina visual, recordar que debe funcionar en columnas para aprovecha el
@@ -92,33 +133,33 @@
                         <div class="carousel-item active"> <!--primeras imagenes que se ven-->
                             <div class="row"> <!--row es una fila-->
                                 <div class="mx-auto col-3 col-sm-3 col-md-3 col-lg-3 col-xl-3"> <!--Estan con responsive en columnas-->
-                                    <img src="ASSETS/IMG/2121824.jpg" alt="" class="d-block mx-auto img-fluid " height="200px" width="200px">     
+                                    <img src="ASSETS/IMG/ACCESORIOS/Anillos/unnamed (6).jpg" alt="" class="d-block mx-auto img-fluid " height="200px" width="200px">     
                                 </div>
                                 <div class="mx-auto col-3 col-sm-3 col-md-3 col-lg-3 col-xl-3">
-                                    <img src="ASSETS/IMG/img_shg-2.jpg" alt="" class="d-block mx-auto img-fluid " height="200px" width="200px">
+                                    <img src="ASSETS/IMG/ACCESORIOS/Anillos/img1_1 (5).jpg" alt="" class="d-block mx-auto img-fluid " height="200px" width="200px">
                                 </div>
                                 <div class="mx-auto col-3 col-sm-3 col-md-3 col-lg-3 col-xl-3">
-                                    <img src="ASSETS/IMG/img4_1 (1).jpg" alt="" class="d-block mx-auto img-fluid " height="200px" width="200px">
+                                    <img src="ASSETS/IMG/ACCESORIOS/Anillos/1a612485259d2f76c1f04e17a0ef9736.jpg" alt="" class="d-block mx-auto img-fluid " height="200px" width="200px">
                                 </div>
                                 <div class="mx-auto col-3 col-sm-3 col-md-3 col-lg-3 col-xl-3">
-                                    <img src="ASSETS/IMG/2121824.jpg" alt="" class="d-block mx-auto img-fluid " height="200px" width="200px">     
+                                    <img src="ASSETS/IMG/ACCESORIOS/Anillos/463cb587be803f55b32d3690b05011f8.jpg" alt="" class="d-block mx-auto img-fluid " height="200px" width="200px">     
                                 </div>
                             </div> 
                         </div>
 
-                        <div class="carousel-item "><!--segundo slide o pagina visual-->
+                        <div class="carousel-item "><!--cuarto slide o pagina visual-->
                             <div class="row">
                                 <div class="mx-auto col-3 col-sm-3 col-md-3 col-lg-3 col-xl-3">
-                                    <img src="ASSETS/IMG/img_shg-2.jpg" alt="" class="d-block mx-auto img-fluid " height="200px" width="200px">     
+                                    <img src="ASSETS/IMG/ACCESORIOS/Aros y diges/img1_1 (2).jpg" alt="" class="d-block mx-auto img-fluid " height="200px" width="200px">     
                                 </div>
                                 <div class="mx-auto col-3 col-sm-3 col-md-3 col-lg-3 col-xl-3">
-                                    <img src="ASSETS/IMG/img_shg-2.jpg" alt="" class="d-block mx-auto img-fluid " height="200px" width="200px">
+                                    <img src="ASSETS/IMG/ACCESORIOS/Aros y diges/img1_1 (3).jpg" alt="" class="d-block mx-auto img-fluid " height="200px" width="200px">
                                 </div>
                                 <div class="mx-auto col-3 col-sm-3 col-md-3 col-lg-3 col-xl-3">
-                                    <img src="ASSETS/IMG/img4_1 (1).jpg" alt="" class="d-block mx-auto img-fluid " height="200px" width="200px">
+                                    <img src="ASSETS/IMG/ACCESORIOS/Aros y diges/img1_1 (7).jpg" alt="" class="d-block mx-auto img-fluid " height="200px" width="200px">
                                 </div>
                                 <div class="mx-auto col-3 col-sm-3 col-md-3 col-lg-3 col-xl-3">
-                                    <img src="ASSETS/IMG/2121824.jpg" alt="" class="d-block mx-auto img-fluid " height="200px" width="200px">     
+                                    <img src="ASSETS/IMG/ACCESORIOS/Aros y diges/01010fd812d4f41cd05fb66826b67690.jpg" alt="" class="d-block mx-auto img-fluid " height="200px" width="200px">     
                                 </div>
                             </div> 
                         </div>
@@ -126,16 +167,254 @@
                         <div class="carousel-item "> <!--tercer slide o pagina visual-->
                             <div class="row">
                                 <div class="mx-auto col-3 col-sm-3 col-md-3 col-lg-3 col-xl-3">
-                                    <img src="ASSETS/IMG/2121824.jpg" alt="" class="d-block mx-auto img-fluid " height="200px" width="200px">     
+                                    <img src="ASSETS/IMG/ACCESORIOS/Carteras/034437ca148ead15ebdb17e8a8510c37.jpg" alt="" class="d-block mx-auto img-fluid " height="200px" width="200px">     
                                 </div>
                                 <div class="mx-auto col-3 col-sm-3 col-md-3 col-lg-3 col-xl-3">
-                                    <img src="ASSETS/IMG/2121824.jpg" alt="" class="d-block mx-auto img-fluid " height="200px" width="200px">
+                                    <img src="ASSETS/IMG/ACCESORIOS/Carteras/70ec73f62d9c78888dcb8290ff98f770.jpg" alt="" class="d-block mx-auto img-fluid " height="200px" width="200px">
                                 </div>
                                 <div class="mx-auto col-3 col-sm-3 col-md-3 col-lg-3 col-xl-3">
-                                    <img src="ASSETS/IMG/img4_1 (1).jpg" alt="" class="d-block mx-auto img-fluid " height="200px" width="200px">
+                                    <img src="ASSETS/IMG/ACCESORIOS/Carteras/17121405115f2388ec1424a3a8082e89.jpg" alt="" class="d-block mx-auto img-fluid " height="200px" width="200px">
                                 </div>
                                 <div class="mx-auto col-3 col-sm-3 col-md-3 col-lg-3 col-xl-3">
-                                    <img src="ASSETS/IMG/2121824.jpg" alt="" class="d-block mx-auto img-fluid " height="200px" width="200px">     
+                                    <img src="ASSETS/IMG/ACCESORIOS/Carteras/18e0c8b71bba659c285ec7c55240197f - copia.jpg" alt="" class="d-block mx-auto img-fluid " height="200px" width="200px">     
+                                </div>
+                            </div> 
+                        </div>
+
+                        <div class="carousel-item "><!--cuarto slide o pagina visual-->
+                            <div class="row">
+                                <div class="mx-auto col-3 col-sm-3 col-md-3 col-lg-3 col-xl-3">
+                                    <img src="ASSETS/IMG/ACCESORIOS/Perfumes/perfummarc.jpg" alt="" class="d-block mx-auto img-fluid " height="200px" width="200px">     
+                                </div>
+                                <div class="mx-auto col-3 col-sm-3 col-md-3 col-lg-3 col-xl-3">
+                                    <img src="ASSETS/IMG/ACCESORIOS/Perfumes/1.jpg" alt="" class="d-block mx-auto img-fluid " height="200px" width="200px">
+                                </div>
+                                <div class="mx-auto col-3 col-sm-3 col-md-3 col-lg-3 col-xl-3">
+                                    <img src="ASSETS/IMG/ACCESORIOS/Perfumes/2.jpg" alt="" class="d-block mx-auto img-fluid " height="200px" width="200px">
+                                </div>
+                                <div class="mx-auto col-3 col-sm-3 col-md-3 col-lg-3 col-xl-3">
+                                    <img src="ASSETS/IMG/ACCESORIOS/Perfumes/pergum2marck.jpg" alt="" class="d-block mx-auto img-fluid " height="200px" width="200px">     
+                                </div>
+                            </div> 
+                        </div>
+
+                        <div class="carousel-item "><!--quinto slide o pagina visual-->
+                            <div class="row">
+                                <div class="mx-auto col-3 col-sm-3 col-md-3 col-lg-3 col-xl-3">
+                                    <img src="ASSETS/IMG/ACCESORIOS/Estuches y más/unnamed (1).jpg" alt="" class="d-block mx-auto img-fluid " height="200px" width="200px">     
+                                </div>
+                                <div class="mx-auto col-3 col-sm-3 col-md-3 col-lg-3 col-xl-3">
+                                    <img src="ASSETS/IMG/ACCESORIOS/Estuches y más/unnamed (19).jpg" alt="" class="d-block mx-auto img-fluid " height="200px" width="200px">
+                                </div>
+                                <div class="mx-auto col-3 col-sm-3 col-md-3 col-lg-3 col-xl-3">
+                                    <img src="ASSETS/IMG/ACCESORIOS/Estuches y más/unnamed (2).jpg" alt="" class="d-block mx-auto img-fluid " height="200px" width="200px">
+                                </div>
+                                <div class="mx-auto col-3 col-sm-3 col-md-3 col-lg-3 col-xl-3">
+                                    <img src="ASSETS/IMG/ACCESORIOS/Estuches y más/unnamed (3).jpg" alt="" class="d-block mx-auto img-fluid " height="200px" width="200px">     
+                                </div>
+                            </div> 
+                        </div>
+
+                          <div class="carousel-item "><!--6 slide o pagina visual-->
+                            <div class="row">
+                                <div class="mx-auto col-3 col-sm-3 col-md-3 col-lg-3 col-xl-3">
+                                    <img src="ASSETS/IMG/ACCESORIOS/Relojes/1.jpg" alt="" class="d-block mx-auto img-fluid " height="200px" width="200px">     
+                                </div>
+                                <div class="mx-auto col-3 col-sm-3 col-md-3 col-lg-3 col-xl-3">
+                                    <img src="ASSETS/IMG/ACCESORIOS/Relojes/2.jpg" alt="" class="d-block mx-auto img-fluid " height="200px" width="200px">
+                                </div>
+                                <div class="mx-auto col-3 col-sm-3 col-md-3 col-lg-3 col-xl-3">
+                                    <img src="ASSETS/IMG/ACCESORIOS/Relojes/relojmarca.jpg" alt="" class="d-block mx-auto img-fluid " height="200px" width="200px">
+                                </div>
+                                <div class="mx-auto col-3 col-sm-3 col-md-3 col-lg-3 col-xl-3">
+                                    <img src="ASSETS/IMG/ACCESORIOS/Relojes/relojhombremarck.jpg" alt="" class="d-block mx-auto img-fluid " height="200px" width="200px">     
+                                </div>
+                            </div> 
+                        </div>
+
+                        <div class="carousel-item "><!--7 slide o pagina visual-->
+                            <div class="row">
+                                <div class="mx-auto col-3 col-sm-3 col-md-3 col-lg-3 col-xl-3">
+                                    <img src="ASSETS/IMG/COSMETICOS/Labios/labialesprimarios.jpg" alt="" class="d-block mx-auto img-fluid " height="200px" width="200px">     
+                                </div>
+                                <div class="mx-auto col-3 col-sm-3 col-md-3 col-lg-3 col-xl-3">
+                                    <img src="ASSETS/IMG/COSMETICOS/Labios/labialessailor.jpg" alt="" class="d-block mx-auto img-fluid " height="200px" width="200px">
+                                </div>
+                                <div class="mx-auto col-3 col-sm-3 col-md-3 col-lg-3 col-xl-3">
+                                    <img src="ASSETS/IMG/COSMETICOS/Labios/labialessaku.jpg" alt="" class="d-block mx-auto img-fluid " height="200px" width="200px">
+                                </div>
+                                <div class="mx-auto col-3 col-sm-3 col-md-3 col-lg-3 col-xl-3">
+                                    <img src="ASSETS/IMG/COSMETICOS/Labios/delineadorlabial y ojos.jpg" alt="" class="d-block mx-auto img-fluid " height="200px" width="200px">     
+                                </div>
+                            </div> 
+                        </div>
+
+                        <div class="carousel-item "><!--8 slide o pagina visual-->
+                            <div class="row">
+                                <div class="mx-auto col-3 col-sm-3 col-md-3 col-lg-3 col-xl-3">
+                                    <img src="ASSETS/IMG/COSMETICOS/Rostro/bases.jpg" alt="" class="d-block mx-auto img-fluid " height="200px" width="200px">     
+                                </div>
+                                <div class="mx-auto col-3 col-sm-3 col-md-3 col-lg-3 col-xl-3">
+                                    <img src="ASSETS/IMG/COSMETICOS/Rostro/contorneador.png" alt="" class="d-block mx-auto img-fluid " height="200px" width="200px">
+                                </div>
+                                <div class="mx-auto col-3 col-sm-3 col-md-3 col-lg-3 col-xl-3">
+                                    <img src="ASSETS/IMG/COSMETICOS/Rostro/corrector1.png" alt="" class="d-block mx-auto img-fluid " height="200px" width="200px">
+                                </div>
+                                <div class="mx-auto col-3 col-sm-3 col-md-3 col-lg-3 col-xl-3">
+                                    <img src="ASSETS/IMG/COSMETICOS/Rostro/polvocompacto1.jpg" alt="" class="d-block mx-auto img-fluid " height="200px" width="200px">     
+                                </div>
+                            </div> 
+                        </div>
+
+                        <div class="carousel-item "><!--9 slide o pagina visual-->
+                            <div class="row">
+                                <div class="mx-auto col-3 col-sm-3 col-md-3 col-lg-3 col-xl-3">
+                                    <img src="ASSETS/IMG/COSMETICOS/Ojos/rimel.jpg" alt="" class="d-block mx-auto img-fluid " height="200px" width="200px">     
+                                </div>
+                                <div class="mx-auto col-3 col-sm-3 col-md-3 col-lg-3 col-xl-3">
+                                    <img src="ASSETS/IMG/COSMETICOS/Ojos/delineador de ojoscolores.jpg" alt="" class="d-block mx-auto img-fluid " height="200px" width="200px">
+                                </div>
+                                <div class="mx-auto col-3 col-sm-3 col-md-3 col-lg-3 col-xl-3">
+                                    <img src="ASSETS/IMG/COSMETICOS/Ojos/rimel.jpg" alt="" class="d-block mx-auto img-fluid " height="200px" width="200px">
+                                </div>
+                                <div class="mx-auto col-3 col-sm-3 col-md-3 col-lg-3 col-xl-3">
+                                    <img src="ASSETS/IMG/COSMETICOS/Ojos/sombra de ojos.jpg" alt="" class="d-block mx-auto img-fluid " height="200px" width="200px">     
+                                </div>
+                            </div> 
+                        </div>
+
+                        <div class="carousel-item "><!--10 slide o pagina visual-->
+                            <div class="row">
+                                <div class="mx-auto col-3 col-sm-3 col-md-3 col-lg-3 col-xl-3">
+                                    <img src="ASSETS/IMG/COSMETICOS/Herramientas/cepillomag.jpg" alt="" class="d-block mx-auto img-fluid " height="200px" width="200px">     
+                                </div>
+                                <div class="mx-auto col-3 col-sm-3 col-md-3 col-lg-3 col-xl-3">
+                                    <img src="ASSETS/IMG/COSMETICOS/Herramientas/mascarasail.jpg" alt="" class="d-block mx-auto img-fluid " height="200px" width="200px">
+                                </div>
+                                <div class="mx-auto col-3 col-sm-3 col-md-3 col-lg-3 col-xl-3">
+                                    <img src="ASSETS/IMG/COSMETICOS/Herramientas/secadorpelmar.jpg" alt="" class="d-block mx-auto img-fluid " height="200px" width="200px">
+                                </div>
+                                <div class="mx-auto col-3 col-sm-3 col-md-3 col-lg-3 col-xl-3">
+                                    <img src="ASSETS/IMG/COSMETICOS/Herramientas/risadorpestaña.jpg" alt="" class="d-block mx-auto img-fluid " height="200px" width="200px">     
+                                </div>
+                            </div> 
+                        </div>
+
+                         <div class="carousel-item "><!--11 slide o pagina visual-->
+                            <div class="row">
+                                <div class="mx-auto col-3 col-sm-3 col-md-3 col-lg-3 col-xl-3">
+                                    <img src="ASSETS/IMG/VESTUARIO/Abrigos-chaquetas/chaquetasailo.jpg" alt="" class="d-block mx-auto img-fluid " height="200px" width="200px">     
+                                </div>
+                                <div class="mx-auto col-3 col-sm-3 col-md-3 col-lg-3 col-xl-3">
+                                    <img src="ASSETS/IMG/VESTUARIO/Abrigos-chaquetas/blaiserformal.jpg" alt="" class="d-block mx-auto img-fluid " height="200px" width="200px">
+                                </div>
+                                <div class="mx-auto col-3 col-sm-3 col-md-3 col-lg-3 col-xl-3">
+                                    <img src="ASSETS/IMG/VESTUARIO/Abrigos-chaquetas/abrigosinspiradosenmarca.jpg" alt="" class="d-block mx-auto img-fluid " height="200px" width="200px">
+                                </div>
+                                <div class="mx-auto col-3 col-sm-3 col-md-3 col-lg-3 col-xl-3">
+                                    <img src="ASSETS/IMG/VESTUARIO/Abrigos-chaquetas/abrigodemarca.jpg" alt="" class="d-block mx-auto img-fluid " height="200px" width="200px">     
+                                </div>
+                            </div> 
+                        </div>
+
+                         <div class="carousel-item "><!--12 slide o pagina visual-->
+                            <div class="row">
+                                <div class="mx-auto col-3 col-sm-3 col-md-3 col-lg-3 col-xl-3">
+                                    <img src="ASSETS/IMG/VESTUARIO/Calzado/unnamedmujer.jpg" alt="" class="d-block mx-auto img-fluid " height="200px" width="200px">     
+                                </div>
+                                <div class="mx-auto col-3 col-sm-3 col-md-3 col-lg-3 col-xl-3">
+                                    <img src="ASSETS/IMG/VESTUARIO/Calzado/sailorzap.jpg" alt="" class="d-block mx-auto img-fluid " height="200px" width="200px">
+                                </div>
+                                <div class="mx-auto col-3 col-sm-3 col-md-3 col-lg-3 col-xl-3">
+                                    <img src="ASSETS/IMG/VESTUARIO/Calzado/unnamed (3)hombe.jpg" alt="" class="d-block mx-auto img-fluid " height="200px" width="200px">
+                                </div>
+                                <div class="mx-auto col-3 col-sm-3 col-md-3 col-lg-3 col-xl-3">
+                                    <img src="ASSETS/IMG/VESTUARIO/Calzado/unnamedzapatilla.jpg" alt="" class="d-block mx-auto img-fluid " height="200px" width="200px">     
+                                </div>
+                            </div> 
+                        </div>
+
+                         <div class="carousel-item "><!--13 slide o pagina visual-->
+                            <div class="row">
+                                <div class="mx-auto col-3 col-sm-3 col-md-3 col-lg-3 col-xl-3">
+                                    <img src="ASSETS/IMG/VESTUARIO/Pantalones-faldas/estilosos.jpg" alt="" class="d-block mx-auto img-fluid " height="200px" width="200px">     
+                                </div>
+                                <div class="mx-auto col-3 col-sm-3 col-md-3 col-lg-3 col-xl-3">
+                                    <img src="ASSETS/IMG/VESTUARIO/Pantalones-faldas/fald.jpg" alt="" class="d-block mx-auto img-fluid " height="200px" width="200px">
+                                </div>
+                                <div class="mx-auto col-3 col-sm-3 col-md-3 col-lg-3 col-xl-3">
+                                    <img src="ASSETS/IMG/VESTUARIO/Pantalones-faldas/eleganpan.jpg" alt="" class="d-block mx-auto img-fluid " height="200px" width="200px">
+                                </div>
+                                <div class="mx-auto col-3 col-sm-3 col-md-3 col-lg-3 col-xl-3">
+                                    <img src="ASSETS/IMG/VESTUARIO/Pantalones-faldas/jeansfl.jpg" alt="" class="d-block mx-auto img-fluid " height="200px" width="200px">     
+                                </div>
+                            </div> 
+                        </div>
+
+                        <div class="carousel-item "><!--14 slide o pagina visual-->
+                            <div class="row">
+                                <div class="mx-auto col-3 col-sm-3 col-md-3 col-lg-3 col-xl-3">
+                                    <img src="ASSETS/IMG/VESTUARIO/Conjuntos/ejegant.jpg" alt="" class="d-block mx-auto img-fluid " height="200px" width="200px">     
+                                </div>
+                                <div class="mx-auto col-3 col-sm-3 col-md-3 col-lg-3 col-xl-3">
+                                    <img src="ASSETS/IMG/VESTUARIO/Conjuntos/conjunmarc.jpg" alt="" class="d-block mx-auto img-fluid " height="200px" width="200px">
+                                </div>
+                                <div class="mx-auto col-3 col-sm-3 col-md-3 col-lg-3 col-xl-3">
+                                    <img src="ASSETS/IMG/VESTUARIO/Conjuntos/pijamasa.jpg" alt="" class="d-block mx-auto img-fluid " height="200px" width="200px">
+                                </div>
+                                <div class="mx-auto col-3 col-sm-3 col-md-3 col-lg-3 col-xl-3">
+                                    <img src="ASSETS/IMG/VESTUARIO/Conjuntos/trajs.jpg" alt="" class="d-block mx-auto img-fluid " height="200px" width="200px">     
+                                </div>
+                            </div> 
+                        </div>
+
+                        <div class="carousel-item "><!--15 slide o pagina visual-->
+                            <div class="row">
+                                <div class="mx-auto col-3 col-sm-3 col-md-3 col-lg-3 col-xl-3">
+                                    <img src="ASSETS/IMG/VESTUARIO/Poleras/poleramarck.jpg" alt="" class="d-block mx-auto img-fluid " height="200px" width="200px">     
+                                </div>
+                                <div class="mx-auto col-3 col-sm-3 col-md-3 col-lg-3 col-xl-3">
+                                    <img src="ASSETS/IMG/VESTUARIO/Poleras/tops.jpg" alt="" class="d-block mx-auto img-fluid " height="200px" width="200px">
+                                </div>
+                                <div class="mx-auto col-3 col-sm-3 col-md-3 col-lg-3 col-xl-3">
+                                    <img src="ASSETS/IMG/VESTUARIO/Poleras/corsetpol.jpg" alt="" class="d-block mx-auto img-fluid " height="200px" width="200px">
+                                </div>
+                                <div class="mx-auto col-3 col-sm-3 col-md-3 col-lg-3 col-xl-3">
+                                    <img src="ASSETS/IMG/VESTUARIO/Poleras/blusa.jpg" alt="" class="d-block mx-auto img-fluid " height="200px" width="200px">     
+                                </div>
+                            </div> 
+                        </div>
+
+                        <div class="carousel-item "><!--16 slide o pagina visual-->
+                            <div class="row">
+                                <div class="mx-auto col-3 col-sm-3 col-md-3 col-lg-3 col-xl-3">
+                                    <img src="ASSETS/IMG/VESTUARIO/Vestidos/sex.jpg" alt="" class="d-block mx-auto img-fluid " height="200px" width="200px">     
+                                </div>
+                                <div class="mx-auto col-3 col-sm-3 col-md-3 col-lg-3 col-xl-3">
+                                    <img src="ASSETS/IMG/VESTUARIO/Vestidos/blan.jpg" alt="" class="d-block mx-auto img-fluid " height="200px" width="200px">
+                                </div>
+                                <div class="mx-auto col-3 col-sm-3 col-md-3 col-lg-3 col-xl-3">
+                                    <img src="ASSETS/IMG/VESTUARIO/Vestidos/mulcol.jpg" alt="" class="d-block mx-auto img-fluid " height="200px" width="200px">
+                                </div>
+                                <div class="mx-auto col-3 col-sm-3 col-md-3 col-lg-3 col-xl-3">
+                                    <img src="ASSETS/IMG/VESTUARIO/Vestidos/sexmar.jpg" alt="" class="d-block mx-auto img-fluid " height="200px" width="200px">     
+                                </div>
+                            </div> 
+                        </div>
+
+                        <div class="carousel-item "><!--17 slide o pagina visual-->
+                            <div class="row">
+                                <div class="mx-auto col-3 col-sm-3 col-md-3 col-lg-3 col-xl-3">
+                                    <img src="ASSETS/IMG/VESTUARIO/Tajes de matrimonio/hombremarc.jpg" alt="" class="d-block mx-auto img-fluid " height="200px" width="200px">     
+                                </div>
+                                <div class="mx-auto col-3 col-sm-3 col-md-3 col-lg-3 col-xl-3">
+                                    <img src="ASSETS/IMG/VESTUARIO/Tajes de matrimonio/vestmarck4.jpg" alt="" class="d-block mx-auto img-fluid " height="200px" width="200px">
+                                </div>
+                                <div class="mx-auto col-3 col-sm-3 col-md-3 col-lg-3 col-xl-3">
+                                    <img src="ASSETS/IMG/VESTUARIO/Tajes de matrimonio/vestidomatrimarc.jpg" alt="" class="d-block mx-auto img-fluid " height="200px" width="200px">
+                                </div>
+                                <div class="mx-auto col-3 col-sm-3 col-md-3 col-lg-3 col-xl-3">
+                                    <img src="ASSETS/IMG/VESTUARIO/Tajes de matrimonio/trajehombremarck.jpg" alt="" class="d-block mx-auto img-fluid " height="200px" width="200px">     
                                 </div>
                             </div> 
                         </div>
@@ -153,165 +432,140 @@
                 </div>
             </Section>
 
-            <!--segundo carrusel con otra tematica ver: vestuario codigo copiado del primer item cosmeticos, funcionan iguales-->
-            <Section class="m-5"> 
-                <h2 class="text-center m-5 display-6"><a href="vestuario.html" class="text-decoration-none link-secondary text-black">Vestuario</a></h2>  
-                
-                <div id="carroVestuario" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
-
-                    <div class="carousel-indicators">
-                        <button type="button" data-bs-target="#carroVestuario" data-bs-slide-to="0" class="active"></button>
-                        <button type="button" data-bs-target="#carroVestuario" data-bs-slide-to="1" ></button>
-                        <button type="button" data-bs-target="#carroVestuario" data-bs-slide-to="2" ></button>
+            <!--Tips de belleza-->
+            <div class="container-fluid d-flex" >
+                <div class="container text-center mt-5 mx-auto shadow" id="tipBelleza"> <!--contenedor adaptable por responsive, texto centrado y letra cursiva-->
+                    
+                    <div class="container-fluid d-flex justify-content-center pt-4"> <!--contenedor que se acomoda al espacio disponible y esta con el contenido centrado-->
+                        <h4 class="fw-bold ps-1">🎨 El Secreto de la Transformación: Encuentra tu Estación Mágica</h4>
                     </div>
 
-                    <div class="carousel-inner">
-
-                        <div class="carousel-item active">
-                            <div class="row">
-                                <div class="mx-auto col-3 col-sm-3 col-md-3 col-lg-3 col-xl-3">
-                                    <img src="ASSETS/IMG/2121824.jpg" alt="" class="d-block mx-auto img-fluid " height="200px" width="200px">     
-                                </div>
-                                <div class="mx-auto col-3 col-sm-3 col-md-3 col-lg-3 col-xl-3">
-                                    <img src="ASSETS/IMG/img_shg-2.jpg" alt="" class="d-block mx-auto img-fluid " height="200px" width="200px">
-                                </div>
-                                <div class="mx-auto col-3 col-sm-3 col-md-3 col-lg-3 col-xl-3">
-                                    <img src="ASSETS/IMG/img4_1 (1).jpg" alt="" class="d-block mx-auto img-fluid " height="200px" width="200px">
-                                </div>
-                                <div class="mx-auto col-3 col-sm-3 col-md-3 col-lg-3 col-xl-3">
-                                    <img src="ASSETS/IMG/2121824.jpg" alt="" class="d-block mx-auto img-fluid " height="200px" width="200px">     
-                                </div>
-                            </div> 
+                    <div class=" mt-4">
+                    Conocer tu colorimetría es el primer paso para dominar tu poder estelar. Se basa en identificar si tus tonos base 
+                    son fríos (azules o rosados) o cálidos (dorados o melocotón) y qué tan vibrantes o suaves son, clasificándote en 
+                    una de las cuatro estaciones.
+                        <div>
+                            <p class="pt-3"><strong class="fst-italic">🔍 Paso 1: Identifica tu Tono Base; Mira tus venas en la muñeca (a la luz natural),</strong>
+                                si tu venas son verdes eres: calido, pero si son azules o violetas eres: frío y si no distingues tu color o es una mezcla eres: neutral. 
+                                sí resultas ser de color neutral; adivina...!! todos los colores te quedan estupendo.</p>
+                            <p><strong class="fst-italic pb-3">🌟 Paso 2: Tu Estación de Poder; Tu estación te indica tu paleta de colores ideal para que tu 
+                                belleza brille como un cristal de poder.</strong> Recuerda las estaciones son solo un ejemplo ya que cada estacion esta ligada a tu color base, 
+                            es decir, una una persona con tono base FRÍO no puede ser "Otoño", ya que Otoño es una estación de tonalidades cálidas. De la misma manera,
+                             una persona con tono base CÁLIDO no podría ser "Verano".</p>
                         </div>
-
-                        <div class="carousel-item ">
-                            <div class="row">
-                                <div class="mx-auto col-3 col-sm-3 col-md-3 col-lg-3 col-xl-3">
-                                    <img src="ASSETS/IMG/img_shg-2.jpg" alt="" class="d-block mx-auto img-fluid " height="200px" width="200px">     
-                                </div>
-                                <div class="mx-auto col-3 col-sm-3 col-md-3 col-lg-3 col-xl-3">
-                                    <img src="ASSETS/IMG/img_shg-2.jpg" alt="" class="d-block mx-auto img-fluid " height="200px" width="200px">
-                                </div>
-                                <div class="mx-auto col-3 col-sm-3 col-md-3 col-lg-3 col-xl-3">
-                                    <img src="ASSETS/IMG/img4_1 (1).jpg" alt="" class="d-block mx-auto img-fluid " height="200px" width="200px">
-                                </div>
-                                <div class="mx-auto col-3 col-sm-3 col-md-3 col-lg-3 col-xl-3">
-                                    <img src="ASSETS/IMG/2121824.jpg" alt="" class="d-block mx-auto img-fluid " height="200px" width="200px">     
-                                </div>
-                            </div> 
-                        </div>
-
-                        <div class="carousel-item ">
-                            <div class="row">
-                                <div class="mx-auto col-3 col-sm-3 col-md-3 col-lg-3 col-xl-3">
-                                    <img src="ASSETS/IMG/2121824.jpg" alt="" class="d-block mx-auto img-fluid " height="200px" width="200px">     
-                                </div>
-                                <div class="mx-auto col-3 col-sm-3 col-md-3 col-lg-3 col-xl-3">
-                                    <img src="ASSETS/IMG/2121824.jpg" alt="" class="d-block mx-auto img-fluid " height="200px" width="200px">
-                                </div>
-                                <div class="mx-auto col-3 col-sm-3 col-md-3 col-lg-3 col-xl-3">
-                                    <img src="ASSETS/IMG/img4_1 (1).jpg" alt="" class="d-block mx-auto img-fluid " height="200px" width="200px">
-                                </div>
-                                <div class="mx-auto col-3 col-sm-3 col-md-3 col-lg-3 col-xl-3">
-                                    <img src="ASSETS/IMG/2121824.jpg" alt="" class="d-block mx-auto img-fluid " height="200px" width="200px">     
-                                </div>
-                            </div> 
-                        </div>
-
                     </div>
 
-                    <button class="carousel-control-prev" type="button" data-bs-target="#carroVestuario" data-bs-slide="prev">
-                        <span class="carousel-control-prev-icon"></span>
-                    </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#carroVestuario" data-bs-slide="next">
-                        <span class="carousel-control-next-icon"></span>
-                    </button>
+                    <img src="ASSETS/IMG/colorimetria.jpg" alt="" class="img-fluid imagenTips" width="500px" height="500px">
 
+                    <p class="fw-bolder fst-italic pt-3 pb-3">Elige tu vestuario y maquillaje de Magic Alliance dentro de tu estación para que tu look se sienta como un hechizo 
+                        perfecto y armonioso.</p>
+                    
                 </div>
-            </Section>
+            </div>
 
-            <!--tercer carrusel con la ultima tematica: accesorios, donde tambien el codigo es copiado del primer item cosmeticos, funcionan iguales-->
-            <Section class="m-5"> 
-
-                <h2 class="text-center m-5 display-6"><a href="accesorios.html" class="text-decoration-none link-secondary text-black">Accesorios</a></h2>  
-                <div id="carroAccesorios" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
-
-                    <div class="carousel-indicators">
-                        <button type="button" data-bs-target="#carroAccesorios" data-bs-slide-to="0" class="active"></button>
-                        <button type="button" data-bs-target="#carroAccesorios" data-bs-slide-to="1" ></button>
-                        <button type="button" data-bs-target="#carroAccesorios" data-bs-slide-to="2" ></button>
+            <div class="container-fluid d-flex" >
+                <div class="container mt-5 mx-auto shadow" id="tipSombra"> <!--contenedor adaptable por responsive, texto centrado y letra cursiva-->
+                    
+                    <div class="container-fluid d-flex justify-content-center pt-4"> <!--contenedor que se acomoda al espacio disponible y esta con el contenido centrado-->
+                        <h4 class="fw-bold ps-1">🎨 Tu Mirada Hechizada: Secretos de Sombras y Delineados</h4>
                     </div>
 
-                    <div class="carousel-inner">
+                    <div class=" mt-4">
+                        <p class="text-center">¡Despierta el poder de tus ojos! Con Magic Alliance, cada parpadeo será un conjuro de encanto. 
+                        Aquí te revelamos los trucos de las guardianas para una mirada tan mágica como impactante:</p>
 
-                        <div class="carousel-item active">
-                            <div class="row">
-                                <div class="mx-auto col-3 col-sm-3 col-md-3 col-lg-3 col-xl-3 ">
-                                    <img src="ASSETS/IMG/2121824.jpg" alt="" class="d-block mx-auto img-fluid " height="200px" width="200px">     
-                                </div>
-                                <div class="mx-auto col-3 col-sm-3 col-md-3 col-lg-3 col-xl-3 ">
-                                    <img src="ASSETS/IMG/img_shg-2.jpg" alt="" class="d-block mx-auto img-fluid " height="200px" width="200px">
-                                </div>
-                                <div class="mx-auto col-3 col-sm-3 col-md-3 col-lg-3 col-xl-3 ">
-                                    <img src="ASSETS/IMG/img4_1 (1).jpg" alt="" class="d-block mx-auto img-fluid " height="200px" width="200px">
-                                </div>
-                                <div class="mx-auto col-3 col-sm-3 col-md-3 col-lg-3 col-xl-3 ">
-                                    <img src="ASSETS/IMG/2121824.jpg" alt="" class="d-block mx-auto img-fluid " height="200px" width="200px">     
-                                </div>
-                            </div> 
+                        <div>
+                            <ul class="pt-3"><strong class="fst-italic">✨ El Poder de la Sombra: Tu Paleta de Hechizos</strong>
+                                <li>
+                                    <strong>Prepara tu Lienzo Mágico:</strong> ¡Nunca saltes la prebase! Es el escudo que intensifica tus pigmentos 
+                                    y mantiene tus sombras de Magic Alliance impecables, sin pliegues, ¡como por arte de magia
+                                </li>
+                                <li>
+                                    <strong>La Luz Guía el Camino:</strong> Aplica los tonos claros y brillantes en el centro del párpado y el 
+                                    lagrimal para abrir tu mirada. Los tonos medios en el pliegue y los oscuros en la esquina exterior, para dar profundidad.
+                                </li>
+                                <li>
+                                    <strong>Difuminado de Ensueño:</strong> Con una brocha suave, realiza movimientos circulares y suaves para que los colores se fusionen 
+                                    como un halo místico, sin dejar rastro de líneas duras.
+                                </li>
+                            </ul>
+
+                            <ul class="pt-3 pb-3"><strong class="fst-italic">✍️ El Poder de la Sombra: Tu Paleta de Hechizos</strong>
+                                <li>
+                                    <strong>Pulso Firme:</strong> ¡Encuentra tu centro! Apoya tu codo para estabilizar tu mano.
+                                     Un pulso firme es la clave para un trazo tan preciso como una flecha encantada.
+                                </li>
+                                <li>
+                                    <strong>Puntos de Conexión:</strong> ¿Temblor al dibujar? Dibuja pequeños puntos o guiones a 
+                                    lo largo de tus pestañas y luego únelos con suavidad. ¡Un truco que siempre funciona!
+                                </li>
+                                <li>
+                                    <strong>Alas de Guardiana:</strong> Para ese cat-eye perfecto, traza primero la línea inferior
+                                     de tu ala y luego conéctala con el resto del delineado. ¡Mírate de frente en el espejo! Asegura la simetría, ¡y a volar!
+                                </li>
+                            </ul>
                         </div>
-
-                        <div class="carousel-item ">
-                            <div class="row">
-                                <div class="mx-auto col-3 col-sm-3 col-md-3 col-lg-3 col-xl-3">
-                                    <img src="ASSETS/IMG/img_shg-2.jpg" alt="" class="d-block mx-auto img-fluid " height="200px" width="200px">     
-                                </div>
-                                <div class="mx-auto col-3 col-sm-3 col-md-3 col-lg-3 col-xl-3">
-                                    <img src="ASSETS/IMG/img_shg-2.jpg" alt="" class="d-block mx-auto img-fluid " height="200px" width="200px">
-                                </div>
-                                <div class="mx-auto col-3 col-sm-3 col-md-3 col-lg-3 col-xl-3">
-                                    <img src="ASSETS/IMG/img4_1 (1).jpg" alt="" class="d-block mx-auto img-fluid " height="200px" width="200px">
-                                </div>
-                                <div class="mx-auto col-3 col-sm-3 col-md-3 col-lg-3 col-xl-3">
-                                    <img src="ASSETS/IMG/2121824.jpg" alt="" class="d-block mx-auto img-fluid " height="200px" width="200px">     
-                                </div>
-                            </div> 
-                        </div>
-
-                        <div class="carousel-item ">
-                            <div class="row">
-                                <div class="mx-auto col-3 col-sm-3 col-md-3 col-lg-3 col-xl-3">
-                                    <img src="ASSETS/IMG/2121824.jpg" alt="" class="d-block mx-auto img-fluid " height="200px" width="200px">     
-                                </div>
-                                <div class="mx-auto col-3 col-sm-3 col-md-3 col-lg-3 col-xl-3">
-                                    <img src="ASSETS/IMG/2121824.jpg" alt="" class="d-block mx-auto img-fluid " height="200px" width="200px">
-                                </div>
-                                <div class="mx-auto col-3 col-sm-3 col-md-3 col-lg-3 col-xl-3">
-                                    <img src="ASSETS/IMG/img4_1 (1).jpg" alt="" class="d-block mx-auto img-fluid " height="200px" width="200px">
-                                </div>
-                                <div class="mx-auto col-3 col-sm-3 col-md-3 col-lg-3 col-xl-3">
-                                    <img src="ASSETS/IMG/2121824.jpg" alt="" class="d-block mx-auto img-fluid " height="200px" width="200px">     
-                                </div>
-                            </div> 
-                        </div>
-
                     </div>
-
-                    <button class="carousel-control-prev" type="button" data-bs-target="#carroAccesorios" data-bs-slide="prev">
-                        <span class="carousel-control-prev-icon"></span>
-                    </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#carroAccesorios" data-bs-slide="next">
-                        <span class="carousel-control-next-icon"></span>
-                    </button>
+                    <div class="text-center">
+                        <img src="ASSETS/IMG/sombras y delineado.png" alt="" class="img-fluid imagenTips" width="500px" height="500px">
+                    </div>
+                    <p class="fw-bolder fst-italic text-center pt-3 pb-3">Con estos secretos de Magic Alliance, tus ojos irradiarán una belleza que cautivará a todos. 
+                        ¡Prepárate para lanzar tu hechizo!</p>
+                    
                 </div>
-            </Section>    
+            </div>
+
+            <div class="container-fluid d-flex" >
+                <div class="container mt-5 mx-auto shadow" id="tipSkingCare"> <!--contenedor adaptable por responsive, texto centrado y letra cursiva-->
+                    
+                    <div class="container-fluid d-flex justify-content-center pt-4"> <!--contenedor que se acomoda al espacio disponible y esta con el contenido centrado-->
+                        <h4 class="fw-bold ps-1">🎨 El Ritual Mágico de tu Piel: Skincare con Magic Alliance</h4>
+                    </div>
+
+                    <div class=" mt-4">
+                        <p class="text-center">Tu piel es el lienzo donde se manifiesta tu magia. En Magic Alliance, 
+                            sabemos que una piel radiante no es un secreto, ¡es un ritual! Despierta el encanto natural de 
+                            tu rostro con estos pasos esenciales, dignos de una verdadera guardiana:</p>
+
+                        <div>
+                            <ul class="pt-3 pb-3">
+                                <li><strong class="fst-italic">🌙 Paso 1: Purificación Lunar (Limpieza)</strong>
+                                    Comienza tu día y finalízalo purificando tu piel. Usa un limpiador suave para retirar 
+                                    impurezas y energías negativas del ambiente. Tu rostro quedará fresco, listo para absorber la magia.
+                                </li>
+                                <li><strong class="fst-italic">💧 Paso 2: Elixir de Revitalización (Tónico/Esencia)</strong>
+                                    Después de limpiar, equilibra tu piel con un tónico o esencia. Es como aplicar una poción mágica que 
+                                    prepara tu piel, cerrando poros y abriendo camino a la hidratación profunda.
+                                </li>
+                                <li><strong class="fst-italic">🌟 Paso 3: Pócima de Radiación (Sérum)</strong>
+                                    Aquí es donde la verdadera magia sucede. Un buen sérum es tu pócima concentrada de poder: hidrata 
+                                    intensamente, combate los signos del tiempo o ilumina tu rostro. ¡Elige el que resuene con tus necesidades!.
+                                </li>
+                                <li><strong class="fst-italic">💖 Paso 4: El Escudo Protector (Hidratante)</strong>
+                                    Sella toda esa bondad con tu crema hidratante. Es tu escudo mágico contra los elementos, manteniendo tu piel 
+                                    suave, flexible y protegida durante todo el día o mientras sueñas.
+                                </li>
+                                <li><strong class="fst-italic">☀️ Paso 5: Bendición Solar (Protector Solar - Día)</strong>
+                                    De día, ¡nunca olvides tu protección solar! Es el campo de fuerza invisible que te protege de los rayos malignos 
+                                    del sol, manteniendo tu piel joven y llena de vitalidad..
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="text-center">
+                        <img src="ASSETS/IMG/skingcare.jpg" alt="" class="img-fluid imagenTips " width="500px" height="500px">
+                    </div>
+                    <p class="fw-bolder fst-italic text-center pt-3 pb-3">Con el ritual de skincare de Magic Alliance, cada día tu piel brillará con su propia
+                         luz estelar. ¡Despierta su magia interior!!</p>
+                    
+                </div>
+            </div>
 
 
 
 
 
 
-            
 
 
 
@@ -322,28 +576,17 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-            <section> <!--seccion acerca de nosotros con imagenes por articulos-->
-                <div class="container-fluid d-flex justify-content-center mt-5"> <!--contenedor que se acomoda al espacio disponible y esta con el contenido centrado-->
+            <section class="mt-5 pt-5"> <!--seccion acerca de nosotros con imagenes por articulos-->
+                <div class="container-fluid d-flex justify-content-center"> <!--contenedor que se acomoda al espacio disponible y esta con el contenido centrado-->
                     <img src="ASSETS/IMG/2121824-removebg-preview.png" alt="" width="30px" height="30px" class="img-fluid">
-                    <h4 class="fw-bold" id="sobreNosotros" >Acerca de Nosotros: Magical Alliance</h4>
+                    <h4 class="fw-bold ps-1" id="sobreNosotros" >Acerca de Nosotros: Magical Alliance</h4>
                 </div>
 
                 <article>
                     <div class="container  justify-content-center mt-3"> <!--separa en contenedores estaticos centrados-->
                         <div class="d-flex"> <!--para que se acomode al espacio disponible-->
                             <img src="ASSETS/IMG/2121824-removebg-preview.png" alt="" width="30px" height="30px" class="img-fluid">
-                            <h6 class="fw-bold pt-1">Despierta tu Magia Interior</h6>
+                            <h6 class="fw-bold pt-1 ps-1">Despierta tu Magia Interior</h6>
                         </div>
                         <div>
                             <p>
@@ -363,7 +606,7 @@
                     <div class="container  justify-content-center mt-3">
                         <div class="d-flex">
                             <img src="ASSETS/IMG/2121824-removebg-preview.png" alt="" width="30px" height="30px" class="img-fluid">
-                            <h6 class="fw-bold pt-1">Tu Portal al Universo del Anime en Chile</h6>
+                            <h6 class="fw-bold pt-1 ps-1">Tu Portal al Universo del Anime en Chile</h6>
                         </div>
                         <div>
                             <p>
@@ -381,7 +624,7 @@
                     <div class="container justify-content-center mt-3">
                         <div class="d-flex">
                             <img src="ASSETS/IMG/2121824-removebg-preview.png" alt="" width="30px" height="30px" class="img-fluid">
-                            <h6 class="fw-bold pt-1">Nuestra Alianza con la Belleza Consciente y la Excelencia</h6>
+                            <h6 class="fw-bold pt-1 ps-1">Nuestra Alianza con la Belleza Consciente y la Excelencia</h6>
                         </div>
                         <div>
                             <p>
@@ -393,78 +636,80 @@
                     </div>
                 </article>
                 
+                <!--carta--> 
+                <div class="card shadow" >
+                    <div class="card-body container-fluid d-flex row row-cols-5 flex-sm-row flex-column mx-auto"> <!--contenedores con filas y 5 columnas  flexibles para responsive compromisos empresa-->
+                        <article class="col-12 col-sm-6 col-md-4 col-lg-2"> <!--Columnas con responsive en diferentes tamaños para cuadrar dentro de pag-->
+                                <div class=" flex-shrink-0">
+                                    <img src="ASSETS/IMG/2121824.jpg" alt="" class="img-fluid mx-auto d-block" width="30px" height="30px">
+                                </div>
+                                <div class="ms-lg-2 text-wrap text-lg-center"> <!--lg punto de quiebre de mi texto-->
+                                    <p>
+                                        <h6 class="fw-bold">Cruelty-Free</h6>
+                                        Ningún ser vivo se ve afectado en las pruebas de nuestros productos. Utilizamos piel sintética de diversas 
+                                        texturas para asegurar su seguridad y reactividad.
+                                    </p>
+                                </div>
+                        </article>
 
-                <div class="container-fluid d-flex row row-cols-5 flex-sm-row flex-column mx-auto"> <!--contenedores con filas y 5 columnas  flexibles para responsibe compromisos empresa-->
-                    <article class="col-12 col-sm-6 col-md-4 col-lg-2"> <!--Columnas con responsive en diferentes tamaños para cuadrar dentro de pag-->
-                            <div class=" flex-shrink-0">
+                        <article class="col-12 col-sm-6 col-md-3 col-lg-2">
+                            <div class="flex-shrink-0">
                                 <img src="ASSETS/IMG/2121824.jpg" alt="" class="img-fluid mx-auto d-block" width="30px" height="30px">
                             </div>
-                            <div class="ms-lg-2 text-wrap text-lg-center"> <!--lg punto de quiebre de mi texto-->
+                            <div class="ms-lg-2 text-wrap text-lg-center">
                                 <p>
-                                    <h6 class="fw-bold">Cruelty-Free</h6>
-                                    Ningún ser vivo se ve afectado en las pruebas de nuestros productos. Utilizamos piel sintética de diversas 
-                                    texturas para asegurar su seguridad y reactividad.
+                                    <h6 class="fw-bold">Veganos</h6>
+                                    El 90% o más de la composición de nuestros productos es de origen vegetal. Utilizamos plantas de uso habitual, 
+                                    minimizando el riesgo de alergias. Recomendamos verificar los componentes si tienes una alergia específica.
                                 </p>
                             </div>
-                    </article>
-
-                    <article class="col-12 col-sm-6 col-md-3 col-lg-2">
-                        <div class="flex-shrink-0">
-                            <img src="ASSETS/IMG/2121824.jpg" alt="" class="img-fluid mx-auto d-block" width="30px" height="30px">
-                        </div>
-                        <div class="ms-lg-2 text-wrap text-lg-center">
-                            <p>
-                                <h6 class="fw-bold">Veganos</h6>
-                                El 90% o más de la composición de nuestros productos es de origen vegetal. Utilizamos plantas de uso habitual, 
-                                minimizando el riesgo de alergias. Recomendamos verificar los componentes si tienes una alergia específica.
-                            </p>
-                        </div>
-                    </article>
-                    <article class="col-12 col-sm-6 col-md-4 col-lg-4">
-                        <div class="flex-shrink-0">
-                            <img src="ASSETS/IMG/2121824.jpg" alt="" class="img-fluid mx-auto d-block" width="30px" height="30px">
-                        </div>
-                        <div class="ms-lg-2 text-wrap text-lg-center">
-                            <p>
-                                <h6 class="fw-bold">PureGlam</h6>
-                                Elevamos la belleza con productos seguros, probados y transparentes. Excluimos más de 1,900 ingredientes potencialmente 
-                                inseguros y aplicamos más de 90 verificaciones de prueba. Nuestros estudios han demostrado que nuestros productos generan 
-                                beneficios reales al mejorar la elasticidad, reducir la porosidad y suavizar las líneas de expresión, posicionándonos como 
-                                la marca número 1 de cosméticos en Chile.
-                            </p>
-                        </div>
-                    </article>
-                    <article class="col-12 col-sm-6 col-md-4 col-lg-2">
-                        <div class="flex-shrink-0">
-                            <img src="ASSETS/IMG/2121824.jpg" alt="" class="img-fluid mx-auto d-block" width="30px" height="30px">
-                        </div>
-                        <div class="ms-lg-2 text-wrap text-lg-center">
-                            <p>
-                                <h6 class="fw-bold">Sustainable Packaging</h6>
-                                Nuestras cajas cuentan con certificación FSC, asegurando que los materiales provienen de fuentes forestales 
-                                responsables y sostenibles.
-                            </p>
-                        </div>
-                    </article>
-                    <article class="col-12 col-sm-6 col-md-4 col-lg-2 mx-auto">
-                        <div class="flex-shrink-0">
-                            <img src="ASSETS/IMG/2121824.jpg" alt="" class="img-fluid mx-auto d-block" width="30px" height="30px">
-                        </div>
-                        <div class="ms-lg-2 text-wrap text-lg-center">
-                            <p>
-                                <h6 class="fw-bold">Ética Laboral</h6>
-                                Nuestras instalaciones de fabricación poseen certificaciones internacionales (SA8000, BSCI y SMETA) que 
-                                garantizan un entorno de trabajo ético y justo para todos nuestros colaboradores.
-                            </p>
-                        </div>
-                    </article>
+                        </article>
+                        <article class="col-12 col-sm-6 col-md-4 col-lg-4">
+                            <div class="flex-shrink-0">
+                                <img src="ASSETS/IMG/2121824.jpg" alt="" class="img-fluid mx-auto d-block" width="30px" height="30px">
+                            </div>
+                            <div class="ms-lg-2 text-wrap text-lg-center">
+                                <p>
+                                    <h6 class="fw-bold">PureGlam</h6>
+                                    Elevamos la belleza con productos seguros, probados y transparentes. Excluimos más de 1,900 ingredientes potencialmente 
+                                    inseguros y aplicamos más de 90 verificaciones de prueba. Nuestros estudios han demostrado que nuestros productos generan 
+                                    beneficios reales al mejorar la elasticidad, reducir la porosidad y suavizar las líneas de expresión, posicionándonos como 
+                                    la marca número 1 de cosméticos en Chile.
+                                </p>
+                            </div>
+                        </article>
+                        <article class="col-12 col-sm-6 col-md-4 col-lg-2">
+                            <div class="flex-shrink-0">
+                                <img src="ASSETS/IMG/2121824.jpg" alt="" class="img-fluid mx-auto d-block" width="30px" height="30px">
+                            </div>
+                            <div class="ms-lg-2 text-wrap text-lg-center">
+                                <p>
+                                    <h6 class="fw-bold">Sustainable Packaging</h6>
+                                    Nuestras cajas cuentan con certificación FSC, asegurando que los materiales provienen de fuentes forestales 
+                                    responsables y sostenibles.
+                                </p>
+                            </div>
+                        </article>
+                        <article class="col-12 col-sm-6 col-md-4 col-lg-2 mx-auto">
+                            <div class="flex-shrink-0">
+                                <img src="ASSETS/IMG/2121824.jpg" alt="" class="img-fluid mx-auto d-block" width="30px" height="30px">
+                            </div>
+                            <div class="ms-lg-2 text-wrap text-lg-center">
+                                <p>
+                                    <h6 class="fw-bold">Ética Laboral</h6>
+                                    Nuestras instalaciones de fabricación poseen certificaciones internacionales (SA8000, BSCI y SMETA) que 
+                                    garantizan un entorno de trabajo ético y justo para todos nuestros colaboradores.
+                                </p>
+                            </div>
+                        </article>
+                    </div>
                 </div>
 
                 <article>
-                    <div class="container-fluid d-flex justify-content-center align-content-center mt-3"> <!--container fluid ocupa todo el espacio se acomoda y centra-->
-                        <div class="text-center">
-                            <h5 class="fw-bold">Magical Alliance</h5>
-                            <p class="fw-bold text-wrap">
+                    <div class="card shadow container d-flex justify-content-center align-content-center mt-3" id="anteFinal" > <!--container fluid ocupa todo el espacio se acomoda y centra-->
+                        <div class="card-body text-center">
+                            <h5 class="card-text fw-bold">Magical Alliance</h5>
+                            <p class="card-title fw-bold text-wrap">
                                 Belleza inspirada en la fantasía, formulada con conciencia y comprometida con la excelencia. 
                                 ¡Gracias por ser parte de nuestra historia!
                             </p>
@@ -475,7 +720,7 @@
             </section>
 
 
-
+            
 
 
 

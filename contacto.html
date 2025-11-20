@@ -7,6 +7,7 @@
     integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <link rel="icon" href="ASSETS/IMG/Carla-Rodriguez-Sailor-Moon-Eternal-moon.512.png" type="image/x-png">
     <link rel="stylesheet" href="ASSETS/CSS/carrito.css">
+    <link rel="stylesheet" href="ASSETS/CSS/EstiloContacto.css">
     <title>Magical Alliance</title>
 
 </head>
@@ -49,6 +50,9 @@
                                 </div>
                             </li>
                             <li class="nav-item ">
+                                <a class="btn btn-dark link-light fw-bolder text-light" href="index.html#tipBelleza">Tips de Belleza</a>
+                            </li>
+                            <li class="nav-item ">
                                 <a class="btn btn-dark link-light fw-bolder text-light" href="contacto.html">Contáctanos</a>
                             </li>
                         </ul>
@@ -72,8 +76,42 @@
 
         <main> 
            
-
-
+            <!--formulario tipo carta-->
+            <div class="container mt-5" >
+                <div class="row justify-content-center">
+                    <div class="col-md-6">
+                        <div class="card" id="formularioContacto">
+                            <div class="card-header">
+                                <h4 class="text-center fw-bolder">Formulario de Contacto</h4>
+                            </div>
+                            <div class="card-body">
+                                <!-- El formulario empieza aquí -->
+                                <form id="contactForm">
+                                    <div class="mb-3">
+                                        <label for="name" class="form-label">Nombre Completo</label> <!--nombre-->
+                                        <input type="text" class="form-control" id="name" placeholder="Nombres Apellidos" required>
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="email" class="form-label">Correo Electrónico</label> <!--email-->
+                                        <input type="email" class="form-control" id="email" placeholder="nombre@ejemplo.com" required>
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="subject" class="form-label">Asunto</label> <!--asunto-->
+                                        <input type="text" class="form-control" id="subject">
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="message" class="form-label">Mensaje</label> <!--mensaje-->
+                                        <textarea class="form-control" id="message" rows="4" placeholder="Escriba aquí" required></textarea>
+                                    </div>
+                                    <div class="d-grid">
+                                        <a type="submit" class="btn btn-primary" href="#">Enviar Mensaje</a>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
 
         </main>
