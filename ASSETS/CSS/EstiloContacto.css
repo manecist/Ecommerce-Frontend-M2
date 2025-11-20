@@ -1,3 +1,10 @@
+body { /*Fondo*/
+    background: radial-gradient( #c37bff, #f480ff, #ffffff, #7bc1ff, rgb(127, 255, 227)); /* Gradiente de 4 colores */
+    min-height: 100vh;
+    margin: 0;
+  
+}
+
 #formularioContacto {
   border: none;
   border-radius: 30px;

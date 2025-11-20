@@ -17,3 +17,116 @@
   padding: 2px;
 }
 
+/*Estilo de mi pagina de carrito para agregar o eliminar elemento*/
+
+#seguirComprando {
+    border: 0;
+    margin-left: 50px;
+    background-color: rgb(240, 180, 239);
+    width: 200px;
+    height: 40px;
+    color: white;
+    text-transform: uppercase;
+    border-radius: 20px;
+    cursor: pointer;
+    border: 2px solid rgb(235, 196, 226);
+    transition: background-color .2s, color .2s;
+}
+
+#seguirComprando:hover {
+    background-color: transparent;
+    color: rgb(231, 152, 216);
+
+}
+
+.contenedor-carrito {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+#vaciarCarrito {
+    border: 0;
+    margin-left: 50px;
+    background-color: rgb(240, 180, 239);
+    width: 200px;
+    height: 40px;
+    color: white;
+    text-transform: uppercase;
+    border-radius: 20px;
+    cursor: pointer;
+    border: 2px solid rgb(235, 196, 226);
+    transition: background-color .2s, color .2s;
+}
+
+#vaciarCarrito:hover {
+    background-color: transparent;
+    color: rgb(231, 152, 216);
+}
+
+#comprarAhora {
+    border: 0;
+    margin-right: 50px;
+    background-color: rgb(240, 180, 239);
+    width: 200px;
+    height: 40px;
+    color: white;
+    text-transform: uppercase;
+    border-radius: 20px;
+    cursor: pointer;
+    border: 2px solid rgb(235, 196, 226);
+    transition: background-color .2s, color .2s;
+}
+
+#comprarAhora:hover {
+    background-color: transparent;
+    color: rgb(231, 152, 216);
+}
+
+.carrito-productos {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.carrito-producto {
+    width: 97%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    color: black;
+    border-radius: 20px;
+    box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-left: 30px;
+}
+
+.carrito-producto-imagen {
+    width: 100px;
+    border-radius: 100px;
+}
+
+.carrito-producto small {
+    font-size: 15px;
+}
+
+.carrito-producto-eliminar {
+    border: 0;
+    background-color: transparent;
+    color: red;
+    cursor: pointer;
+}
+
+.carrito-acciones {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.carrito-acciones-derecha {
+    display: flex;
+}
+
+.disabled {
+    display: none;
+}

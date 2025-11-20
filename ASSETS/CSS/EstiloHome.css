@@ -1,9 +1,8 @@
-body {
-  background-image: url(/Ecommerce-Frontend-M2/ASSETS/IMG/fondo6.jpg);
-  background-size: contain;
-  background-position: center;
-  background-repeat:repeat-y;
-  /* Para asegurarse de que el body ocupe toda la pantalla */
+body { /*Fondo*/
+    background: radial-gradient(circle, #c37bff, #f480ff, #ffffff, #7bc1ff, rgb(127, 255, 227)); /* Gradiente de 4 colores */
+    min-height: 100vh;
+    margin: 0;
+  
 }
 
 .colorFondoBoton { /* color base del div boton home dimensionado*/
@@ -33,6 +32,41 @@ body {
 #boton3:hover {
   border-radius: 50px; /* Aplica bordes redondeados al pasar el ratón */
   background-color: blueviolet;/* color de hover */
+}
+
+
+@media screen and (min-width: 768px) { /*Responsive*/
+.colorFondoBoton { /* color base del div boton home dimensionado*/
+  border-radius: 20px; /* da borden redondo */
+  background-color: darkviolet; /* da color base */
+  width: 600px; /* ancho */
+  position: relative;
+  right: 30;
+}
+
+.btn-group .btn {
+  border-radius: 20px; /* da borden redondo */
+  background-color:transparent; /* fondo transparente */
+  border: none; /* Sin borden */
+  color: black; /* color letra */
+  transition: border-radius 0.3s ease; /* Suaviza la transición */
+  position: relative;
+  right: 11px;
+  font-size: 20px;
+}
+
+#boton1 {
+  width: 200px;
+}
+
+#boton2 {
+  width: 200px;
+}
+
+#boton3 {
+    width: 200px;
+}
+
 }
 
 #comienzoHome { /* estilo a mi tipo jumbotrom */

@@ -1,0 +1,262 @@
+body { /*Fondo*/
+    background: radial-gradient( #c37bff, #f480ff, #ffffff, #7bc1ff, rgb(127, 255, 227)); /* Gradiente de 4 colores */
+    min-height: 100vh;
+    margin: 0;
+  
+}
+
+/*Estilo de Accesorios*/
+
+#presentAccesorios { /*Estilo accesorios inicio*/
+  border-radius: 30px; /* da borden redondo */
+  background-color: rgb(217, 170, 255);
+  color: black;
+}
+
+/*Estilo de Cosmeticos*/
+
+#presentCosmeticos{ /*Estilo cosmeticos inicio*/
+  border-radius: 30px; /* da borden redondo */
+  background-color: rgb(255, 170, 248);
+  color: black;
+}
+
+/*Estilo de vestuario*/
+
+#presentVestuario{ /*Estilo vestuario inicio*/
+  border-radius: 30px; /* da borden redondo */
+  background-color: rgb(170, 203, 255);
+  color: black;
+}
+
+/*Boton estilo*/
+
+.colorFondoBoton { /* color base del div boton home dimensionado*/
+  border-radius: 20px; /* da borden redondo */
+  background-color: darkviolet; /* da color base */
+  width: 205px; /* ancho */
+  position: relative;
+  right: 30;
+}
+
+.btn-group .btn {
+  border-radius: 20px; /* da borden redondo */
+  background-color:transparent; /* fondo transparente */
+  border: none; /* Sin borden */
+  color: black; /* color letra */
+  transition: border-radius 0.3s ease; /* Suaviza la transición */
+  position: relative;
+  right: 11px;
+}
+
+#herramientas:hover {
+  border-radius: 50px; /* Aplica bordes redondeados al pasar el ratón */
+  background-color: blueviolet; /* color de hover */
+}
+
+#labios:hover {
+  border-radius: 50px; /* Aplica bordes redondeados al pasar el ratón */
+  background-color: blueviolet;/* color de hover */
+}
+
+#cosmeticos:hover {
+  border-radius: 50px; /* Aplica bordes redondeados al pasar el ratón */
+  background-color: blueviolet;/* color de hover */
+}
+
+#anillos:hover {
+  border-radius: 50px; /* Aplica bordes redondeados al pasar el ratón */
+  background-color: blueviolet; /* color de hover */
+}
+
+#aros:hover {
+  border-radius: 50px; /* Aplica bordes redondeados al pasar el ratón */
+  background-color: blueviolet;/* color de hover */
+}
+
+#accesorio:hover {
+  border-radius: 50px; /* Aplica bordes redondeados al pasar el ratón */
+  background-color: blueviolet;/* color de hover */
+}
+
+#abrigos:hover {
+  border-radius: 50px; /* Aplica bordes redondeados al pasar el ratón */
+  background-color: blueviolet; /* color de hover */
+}
+
+#calzado:hover {
+  border-radius: 50px; /* Aplica bordes redondeados al pasar el ratón */
+  background-color: blueviolet;/* color de hover */
+}
+
+#vestuario:hover {
+  border-radius: 50px; /* Aplica bordes redondeados al pasar el ratón */
+  background-color: blueviolet;/* color de hover */
+}
+
+/*Responsive de mis botones*/
+
+@media screen and (min-width: 420px) { /*responsive en pantallas pequeñas*/
+.colorFondoBoton { /* color base del div boton home dimensionado*/
+  border-radius: 20px; /* da borden redondo */
+  background-color: darkviolet; /* da color base */
+  width: 400px; /* ancho */
+  position: relative;
+  right: 30;
+}
+
+.btn-group .btn {
+  border-radius: 20px; /* da borden redondo */
+  background-color:transparent; /* fondo transparente */
+  border: none; /* Sin borden */
+  color: black; /* color letra */
+  transition: border-radius 0.3s ease; /* Suaviza la transición */
+  position: relative;
+  right: 11px;
+  font-size: 20px;
+}
+
+#herramientas {
+  width: 100px;
+}
+
+#labios {
+    width: 100px;
+}
+
+#cosmeticos {
+  width: 100px;
+}
+
+#anillos {
+  width: 100px;
+}
+
+#aros {
+    width: 100px;
+}
+
+#accesorio {
+  width: 100px;
+}
+
+#abrigos {
+  width: 100px;
+}
+
+#calzado {
+    width: 100px;
+}
+
+#vestuario {
+  width: 100px;
+}
+
+}
+
+@media screen and (min-width: 768px) { /*Responsive en pantallas medianas*/
+.colorFondoBoton { /* color base del div boton home dimensionado*/
+  border-radius: 20px; /* da borden redondo */
+  background-color: darkviolet; /* da color base */
+  width: 600px; /* ancho */
+  position: relative;
+  right: 30;
+}
+
+.btn-group .btn {
+  border-radius: 20px; /* da borden redondo */
+  background-color:transparent; /* fondo transparente */
+  border: none; /* Sin borden */
+  color: black; /* color letra */
+  transition: border-radius 0.3s ease; /* Suaviza la transición */
+  position: relative;
+  right: 11px;
+  font-size: 20px;
+}
+
+#herramientas {
+  width: 200px;
+}
+
+#labios {
+  width: 200px;
+}
+
+#cosmeticos {
+    width: 200px;
+}
+
+#anillos {
+  width: 200px;
+}
+
+#aros {
+  width: 200px;
+}
+
+#accesorio {
+    width: 200px;
+}
+
+#abrigos {
+  width: 200px;
+}
+
+#calzado {
+  width: 200px;
+}
+
+#vestuario {
+    width: 200px;
+}
+
+}
+
+
+/*Estilos en las cartas de productos*/
+
+.card{
+  border-radius: 10px;
+  margin: 20px;
+  border: none;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: rgb(226, 163, 218);
+  width: auto;
+}
+
+.producto-imagen{
+  width: 200px;
+  height: 200px;
+  margin: 20px;
+}
+
+.producto-agregar {
+    border: 0;
+    background-color: white;
+    width: 80%;
+    height: 40%;
+    margin-bottom: 30px;
+    color: black;
+    padding: auto;
+    text-transform: uppercase;
+    border-radius: 2rem;
+    cursor: pointer;
+    border: 2px solid white;
+    transition: background-color .2s, color .2s;
+}
+
+.producto-agregar:hover {
+    background-color: transparent;
+    color: white;
+}
+
+.producto-titulo {
+  color: white;
+  font-size: 30px;
+}
+
+.producto-precio {
+  color: white;
+  font-size: 30px;
+}
