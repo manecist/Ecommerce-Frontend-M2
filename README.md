@@ -9,3 +9,6 @@ Se crea pie de pagina y se agregan mas imagenes a la carpeta img
 Se modifica carpeta img, se crea main, section, article para "acerca de nosotros"
 
 Cambios en el codigo, agregar mas html como cosmetico, vestuario y accesorios para dar movilidad  a la pagina, modificar carrito
+
+Se integran imagenes al home y carrusel, se despliegan css y html anexos para formulario y el resto de paginas
+
