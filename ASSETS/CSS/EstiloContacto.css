@@ -2,7 +2,7 @@ body { /*Fondo*/
     background: radial-gradient( #c37bff, #f480ff, #ffffff, #7bc1ff, rgb(127, 255, 227)); /* Gradiente de 4 colores */
     min-height: 100vh;
     margin: 0;
-  
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 #formularioContacto {
@@ -11,6 +11,12 @@ body { /*Fondo*/
   margin: 70px;
   padding-top: 50px;
   background-color: rgb(212, 173, 251);
-
-
 }
+
+#btnSubir { /*Boton subir*/
+  position: fixed;
+  bottom: 20px; /* Ajusta la distancia desde el borde inferior */
+  right: 20px;  /* Ajusta la distancia desde el borde derecho */
+  z-index: 1000; /* Asegura que esté por encima de otros elementos */
+}
+

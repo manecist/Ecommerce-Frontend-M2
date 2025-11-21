@@ -63,9 +63,9 @@
                             <img src="ASSETS/IMG/inicio sesion.png" class="d-inline align-top img-fluid" width="40" height="40" alt="">
                         </a>
                         
-                        <a class="btn btn-dark carrito" href="#"> <!--agrego clase carrito para css-->
+                        <a class="btn btn-dark carrito" href="carrito.html"> <!--agrego clase carrito para css-->
                             <img src="ASSETS/IMG/carrito.png" class="d-inline align-top img-fluid" width="40" height="40" alt="">
-                            <span id="numeroCarrito" data-action="cart-add" class="badge rounded-circle">0</span>
+                            <span id="numerito" data-action="cart-add" class="badge rounded-circle numerito">0</span>
                             <!--doy id a mi numero de carrito, aplico atributo personalizado al carrito, con un icono redondo en la parte superior -->
                         </a>
               
@@ -79,46 +79,33 @@
             <div class="container text-center mt-5 shadow" id="presentVestuario">
                 <h1 class="display-3 fw-bolder">Vestuario</h1>
                 <div class="lead fst-italic">
-                    <h5 class="fw-bolder">🎀 Moda Magic Alliance: Vístete para Desatar tu Transformación</h5>
-                    <H6 class="fw-bolder">La elegancia de una heroína en cada hilo.</H6>
+                    <h4 class="fw-bolder">🎀 Moda Magic Alliance: Vístete para Desatar tu Transformación</h4>
+                    <H5 class="fw-bolder">La elegancia de una heroína en cada hilo</H5>
+                    <h6>Nuestra colección de moda fusiona el estilo actual con la estética 
+                        mahō shōjo (chica mágica), ofreciéndote el uniforme perfecto para conquistar tu mundo</h6>
                 </div>
                 <div>
-                    <ul class="list-unstyled pb-2">Nuestra colección de moda fusiona el estilo actual con la estética 
-                        mahō shōjo (chica mágica), ofreciéndote el uniforme perfecto para conquistar tu mundo.
-                        <li>
-                            Vestidos: Aura de poder y gracia para cualquier misión.
-                        </li>
-                        <li>
-                            Tops y Poleras: Encanto sutil para tu estilo diario.
-                        </li>
-                        <li>
-                            Pantalones y Faldas: Comodidad, versatilidad y sofisticación.
-                        </li>
-                        <li>
-                            Abrigos y Chaquetas: Capas protectoras con estilo estelar.
-                        </li>
-                        <li>
-                            Conjuntos y Nupciales: Coordinación perfecta para los momentos épicos
-                        </li>
-                        <li>
-                            Calzado: Soporte y confianza inspirados en los elementos mágicos.
-                        </li>
-
-                    </ul>
-                    <p class="fw-bolder fst-italic pb-4">💖 ¡Vístete con Magic Alliance y transforma cada día en una nueva aventura épica!</p>
-
-                </div>
-            
-            </div>
-            
-           <div class="colorFondoBoton container mt-4 mb-4"><!--Botones referenciado con a encerrados en div ovalado para tener hover mas atractivo al pasar el mouse-->
-                <div class="btn-group" role="group" aria-label="Grupo de botones con opciones">
-                    <button id="abrigos" type="button" class="btn btn-primary text-white boton-categoria">Abrigos</button>
-                    <button id="vestuario" type="button" class="btn btn-primary text-white boton-categoria active">Ambos</button>
-                    <button id="calzado" type="button" class="btn btn-primary text-white boton-categoria">Calzado</button>
+                    <p class="fw-bolder fst-italic pb-4 text-center">💖 ¡Vístete con Magic Alliance y transforma 
+                        cada día en una nueva aventura épica!
+                    </p>
                 </div>
             </div>
-            <section class=" text-center"> <!--cartas de presentacion de cosmeticos-->
+              
+            
+           <div class="container d-flex justify-content-center align-items-center text-wrap flex-sm-row flex-column mt-4 mb-4 mx-auto"><!--Botones referenciado con a encerrados en div ovalado para tener hover mas atractivo al pasar el mouse-->
+                
+                <button id="vestuario" type="button" class="btn text-white boton-categoria active">Vestuario</button>
+                <button id="poleras" type="button" class="btn text-white boton-categoria">Poleras</button>
+                <button id="pantalones" type="button" class="btn text-white boton-categoria">Pantalones</button>
+                <button id="conjuntos" type="button" class="btn text-white boton-categoria">Conjuntos</button>
+                <button id="vestidos" type="button" class="btn text-white boton-categoria">Vestidos</button>
+                <button id="matrimonio" type="button" class="btn text-white boton-categoria">Matrimonio</button>
+                <button id="abrigos" type="button" class="btn text-white boton-categoria">Abrigos</button>
+                <button id="calzado" type="button" class="btn text-white boton-categoria">Calzado</button> 
+                
+            </div>
+
+            <section class=" text-center"> <!--cartas de presentacion de vestuario en columnas con responsive y centrado-->
 
                 <h2 class="titulo-principal visually-hidden" id="titulo-principal">Todos los productos</h2>
                 <div id="contenedor-productos" class="contenedor-productos row row-cols-sm-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-4 justify-content-center">
@@ -129,6 +116,9 @@
 
         </main>
 
+        <div class="float m-4"><a class="desplazarArriba" href="#titulo" id="btnSubir"> <img src="ASSETS/IMG/baculo4.png" 
+            alt="" width="90px" height="90px" class="img-fluid"> </a>
+        </div>
 
         <footer class="border-top border-3 ps-3 mt-5">
             <div class="container-fluid row row-cols-3 flex-row d-flex justify-content-center align-items-center text-body-secondary mt-1 vh-50">
@@ -161,7 +151,7 @@
 
                 <form class="mx-auto align-items-center pe-3 flex-column d-flex col-12 col-sm-6 col-md-4 col-lg-4">
                     <div>
-                        <label for="email" class="form-label fw-bolder">Enterate de nuestras promociones y novedades</label>
+                        <label for="emailSubscripcion" class="form-label fw-bolder">Enterate de nuestras promociones y novedades</label>
                         <input type="email" class="form-control" id="emailSubscripcion" placeholder="nombre@ejemplo.com">
                     </div>
                     <div class="row justify-content-center mt-2">
@@ -182,6 +172,6 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" 
      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
-    <script src="ASSETS/JS/ecommerce.js"></script>
+    <script src="ASSETS/JS/vestuario.js"></script>
 </body>
 </html>

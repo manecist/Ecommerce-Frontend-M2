@@ -3,6 +3,6 @@
     bottom: -50px; /* ajuste de indicador hacia abajo de la imagen */
 
     [data-bs-target]{
-        background-color: brown; /*color cafe para mi indicador*/
+        background-color: rgb(113, 15, 187); /*color cafe para mi indicador*/
     }
 }

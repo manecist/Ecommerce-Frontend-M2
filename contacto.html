@@ -63,9 +63,9 @@
                             <img src="ASSETS/IMG/inicio sesion.png" class="d-inline align-top img-fluid" width="40" height="40" alt="">
                         </a>
                         
-                        <a class="btn btn-dark carrito" href="#"> <!--agrego clase carrito para css-->
+                        <a class="btn btn-dark carrito" href="carrito.html"> <!--agrego clase carrito para css-->
                             <img src="ASSETS/IMG/carrito.png" class="d-inline align-top img-fluid" width="40" height="40" alt="">
-                            <span id="numeroCarrito" data-action="cart-add" class="badge rounded-circle">0</span>
+                            <span id="numerito" data-action="cart-add" class="badge rounded-circle numerito">0</span>
                             <!--doy id a mi numero de carrito, aplico atributo personalizado al carrito, con un icono redondo en la parte superior -->
                         </a>
               
@@ -113,9 +113,12 @@
                 </div>
             </div>
 
-
         </main>
 
+
+        <div class="float m-4"><a class="desplazarArriba" href="#titulo" id="btnSubir"> <img src="ASSETS/IMG/baculo4.png" 
+            alt="" width="90px" height="90px" class="img-fluid"> </a>
+        </div>        
 
         <footer class="border-top border-3 ps-3 mt-5">
             <div class="container-fluid row row-cols-3 flex-row d-flex justify-content-center align-items-center text-body-secondary mt-1 vh-50">
@@ -148,7 +151,7 @@
 
                 <form class="mx-auto align-items-center pe-3 flex-column d-flex col-12 col-sm-6 col-md-4 col-lg-4">
                     <div>
-                        <label for="email" class="form-label fw-bolder">Enterate de nuestras promociones y novedades</label>
+                        <label for="emailSubscripcion" class="form-label fw-bolder">Enterate de nuestras promociones y novedades</label>
                         <input type="email" class="form-control" id="emailSubscripcion" placeholder="nombre@ejemplo.com">
                     </div>
                     <div class="row justify-content-center mt-2">

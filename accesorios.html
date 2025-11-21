@@ -63,9 +63,9 @@
                             <img src="ASSETS/IMG/inicio sesion.png" class="d-inline align-top img-fluid" width="40" height="40" alt="">
                         </a>
                         
-                        <a class="btn btn-dark carrito" href="#"> <!--agrego clase carrito para css-->
+                        <a class="btn btn-dark carrito" href="carrito.html"> <!--agrego clase carrito para css-->
                             <img src="ASSETS/IMG/carrito.png" class="d-inline align-top img-fluid" width="40" height="40" alt="">
-                            <span id="numeroCarrito" data-action="cart-add" class="badge rounded-circle">0</span>
+                            <span id="numerito" data-action="cart-add" class="badge rounded-circle numerito">0</span>
                             <!--doy id a mi numero de carrito, aplico atributo personalizado al carrito, con un icono redondo en la parte superior -->
                         </a>
               
@@ -76,50 +76,34 @@
 
         <main> 
             <!--portada accesorios con descripcion jumbotrom-->
-            <div class="container text-center mt-5 shadow" id="presentAccesorios">
-                <h1 class="display-3 fw-bolder">Accesorios</h1>
-                <div class="lead fst-italic">
-                    <h5 class="fw-bolder">✨ Tu Magia, Hecha Accesorio: Los Talismanes de Magic Alliance</h5>
-                    <H6 class="fw-bolder">Cada accesorio es un objeto de poder</H6>
+            <div class="container mt-5 shadow" id="presentAccesorios">
+                <h1 class="display-3 fw-bolder text-center">Accesorios</h1>
+                <div class="lead fst-italic text-center">
+                    <h4 class="fw-bolder">✨ Tu Magia, Hecha Accesorio: Los Talismanes de Magic Alliance</h4>
+                    <H5 class="fw-bolder">Cada accesorio es un objeto de poder</H5>
+                    <h6>En Magic Alliance, no solo te vistes, te equipas. Nuestros Accesorios 
+                        Encantados son talismanes diseñados para infundir tu estilo con la energía de la fantasía</h6>
                 </div>
                 <div>
-                    <ul class="list-unstyled pb-2">En Magic Alliance, no solo te vistes, te equipas. Nuestros Accesorios 
-                        Encantados son talismanes diseñados para infundir tu estilo con la energía de la fantasía:
-                        <li>
-                            Anillos: Pequeños círculos que sellan tu promesa de estilo y fuerza.
-                        </li>
-                        <li>
-                            Aros y Dijes: Captura la luz de las estrellas con motivos celestiales.
-                        </li>
-                        <li>
-                            Carteras: Diseños clave para guardar tus objetos más preciados.
-                        </li>
-                        <li>
-                            Cosmetiqueros: Los guardianes de tu arsenal de belleza
-                        </li>
-                        <li>
-                            Perfumes: Tu aura mágica envasada en esencias cautivadoras.
-                        </li>
-                        <li>
-                            Relojes: Elegancia funcional que marca el momento de tu transformación.
-                        </li>
-
-                    </ul>
-                    <p class="fw-bolder fst-italic pb-4">💖 Equípate con Magic Alliance y convierte cada detalle en tu nuevo 
-                        objeto de poder. Tu transformación comienza aquí.</p>
-
-                </div>
-            
-            </div>
-
-            <div class="colorFondoBoton container mt-4 mb-4"><!--Botones referenciado con a encerrados en div ovalado para tener hover mas atractivo al pasar el mouse-->
-                <div class="btn-group" role="group" aria-label="Grupo de botones con opciones">
-                    <button id="anillos" type="button" class="btn btn-primary text-white boton-categoria">Anillos</button>
-                    <button id="accesorio" type="button" class="btn btn-primary text-white boton-categoria active">Ambos</button>
-                    <button id="aros" type="button" class="btn btn-primary text-white boton-categoria">Aros</button>
+                    <p class="fw-bolder fst-italic pb-4 text-center">💖 Equípate con Magic Alliance y convierte cada detalle en tu nuevo 
+                        objeto de poder. Tu transformación comienza aquí.
+                    </p>
                 </div>
             </div>
-            <section class=" text-center"> <!--cartas de presentacion de cosmeticos-->
+
+            <div class="container d-flex justify-content-center align-items-center text-wrap flex-sm-row flex-column mt-4 mb-4 mx-auto"><!--Botones referenciado con a encerrados en div ovalado para tener hover mas atractivo al pasar el mouse con las categorias-->
+                
+                <button id="accesorio" type="button" class="btn text-white boton-categoria active">Ambos</button>
+                <button id="anillos" type="button" class="btn text-white boton-categoria ">Anillos</button>
+                <button id="aros" type="button" class="btn text-white boton-categoria">Aros</button>
+                <button id="carteras" type="button" class="btn text-white boton-categoria">Carteras</button>
+                <button id="cosmetiqueros" type="button" class="btn text-white boton-categoria">Cosmetiqueros</button>
+                <button id="perfumes" type="button" class="btn text-white boton-categoria ">Perfumes</button>
+                <button id="relojes" type="button" class="btn text-white boton-categoria ">Relojes</button>
+                
+                
+            </div>
+            <section class=" text-center"> <!--cartas de presentacion de accesorios-->
 
                 <h2 class="titulo-principal visually-hidden" id="titulo-principal">Todos los productos</h2>
                 <div id="contenedor-productos" class="contenedor-productos row row-cols-sm-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-4 justify-content-center">
@@ -130,7 +114,9 @@
             
         </main>
 
-
+        <div class="float m-4"><a class="desplazarArriba" href="#titulo" id="btnSubir"> <img src="ASSETS/IMG/baculo4.png" 
+            alt="" width="90px" height="90px" class="img-fluid"> </a>
+        </div>
 
         <footer class="border-top border-3 ps-3 mt-5">
             <div class="container-fluid row row-cols-3 flex-row d-flex justify-content-center align-items-center text-body-secondary mt-1 vh-50">
@@ -163,7 +149,7 @@
 
                 <form class="mx-auto align-items-center pe-3 flex-column d-flex col-12 col-sm-6 col-md-4 col-lg-4">
                     <div>
-                        <label for="email" class="form-label fw-bolder">Enterate de nuestras promociones y novedades</label>
+                        <label for="emailSubscripcion" class="form-label fw-bolder">Enterate de nuestras promociones y novedades</label>
                         <input type="email" class="form-control" id="emailSubscripcion" placeholder="nombre@ejemplo.com">
                     </div>
                     <div class="row justify-content-center mt-2">
@@ -184,6 +170,6 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" 
      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
-    <script src="ASSETS/JS/ecommerce.js"></script>
+    <script src="ASSETS/JS/accesorio.js"></script>
 </body>
 </html>

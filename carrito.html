@@ -62,9 +62,9 @@
                             <img src="ASSETS/IMG/inicio sesion.png" class="d-inline align-top img-fluid" width="40" height="40" alt="">
                         </a>
                         
-                        <a class="btn btn-dark carrito" href="#"> <!--agrego clase carrito para css-->
+                        <a class="btn btn-dark carrito" href="carrito.html"> <!--agrego clase carrito para css-->
                             <img src="ASSETS/IMG/carrito.png" class="d-inline align-top img-fluid" width="40" height="40" alt="">
-                            <span id="numeroCarrito" data-action="cart-add" class="badge rounded-circle">0</span>
+                            <span id="numerito" data-action="cart-add" class="badge rounded-circle numerito">0</span>
                             <!--doy id a mi numero de carrito, aplico atributo personalizado al carrito, con un icono redondo en la parte superior -->
                         </a>
               
@@ -95,7 +95,7 @@
                     <div class="display-6">
                         <div class="d-flex">
                             <p class="me-3">Total:</p>
-                            <p id="total">$3000</p>
+                            <p id="total">$0</p>
                         </div>
                         <button id="comprarAhora" class="btn btn-primary col-2">Comprar ahora</button>
                     </div>
@@ -140,7 +140,7 @@
 
                 <form class="mx-auto align-items-center pe-3 flex-column d-flex col-12 col-sm-6 col-md-4 col-lg-4">
                     <div>
-                        <label for="email" class="form-label fw-bolder">Enterate de nuestras promociones y novedades</label>
+                        <label for="emailSubscripcion" class="form-label fw-bolder">Enterate de nuestras promociones y novedades</label>
                         <input type="email" class="form-control" id="emailSubscripcion" placeholder="nombre@ejemplo.com">
                     </div>
                     <div class="row justify-content-center mt-2">
@@ -161,6 +161,6 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" 
      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
-    <script src="ASSETS/JS/ecommerce.js"></script>
+    <script src="ASSETS/JS/carrito.js"></script>
 </body>
 </html>

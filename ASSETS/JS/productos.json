@@ -1,0 +1,753 @@
+[ 
+    {
+        "id": "anillos-01",
+        "titulo": "Anillo Magic",
+        "imagen": "/Ecommerce-Frontend-M2/ASSETS/IMG/ACCESORIOS/Anillos/5.jpg",
+        "categoria": {
+            "nombre": "Accesorio",
+            "subcategoria": "anillos",
+            "id": "accesorio"
+        },
+        "precio": 1800000
+    },
+    {
+        "id": "anillos-02",
+        "titulo": "Anillo Sailor",
+        "imagen": "/Ecommerce-Frontend-M2/ASSETS/IMG/ACCESORIOS/Anillos/4.jpg",
+        "categoria": {
+            "nombre": "Accesorio",
+            "subcategoria": "anillos",
+            "id": "accesorio"
+        },
+        "precio": 800000
+    },
+    {
+        "id": "anillos-03",
+        "titulo": "Anillos Ali",
+        "imagen": "/Ecommerce-Frontend-M2/ASSETS/IMG/ACCESORIOS/Anillos/3.jpg",
+        "categoria": {
+            "nombre": "Accesorio",
+            "subcategoria": "anillos",
+            "id": "accesorio"
+        },
+        "precio": 200000
+    },
+    {
+        "id": "anillos-04",
+        "titulo": "Anillo Moon",
+        "imagen": "/Ecommerce-Frontend-M2/ASSETS/IMG/ACCESORIOS/Anillos/2.jpg",
+        "categoria": {
+            "nombre": "Accesorio",
+            "subcategoria": "anillos",
+            "id": "accesorio"
+        },
+        "precio": 450000
+    },
+    {
+        "id": "aros-01",
+        "titulo": "Aros Sailor",
+        "imagen": "/Ecommerce-Frontend-M2/ASSETS/IMG/ACCESORIOS/Aros y diges/1.jpg",
+        "categoria": {
+            "nombre": "Accesorio",
+            "subcategoria": "aros",
+            "id": "accesorio"
+        },
+        "precio": 15000
+    },
+    {
+        "id": "aros-02",
+        "titulo": "Aros Saku",
+        "imagen": "/Ecommerce-Frontend-M2/ASSETS/IMG/ACCESORIOS/Aros y diges/2.jpg",
+        "categoria": {
+            "nombre": "Accesorio",
+            "subcategoria": "aros",
+            "id": "accesorio"
+        },
+        "precio": 22000
+    },
+    {
+        "id": "aros-03",
+        "titulo": "Diges Sailor",
+        "imagen": "/Ecommerce-Frontend-M2/ASSETS/IMG/ACCESORIOS/Aros y diges/3.jpg",
+        "categoria": {
+            "nombre": "Accesorio",
+            "subcategoria": "aros",
+            "id": "accesorio"
+        },
+        "precio": 10000
+    },
+    {
+        "id": "aros-04",
+        "titulo": "Diges Saku",
+        "imagen": "/Ecommerce-Frontend-M2/ASSETS/IMG/ACCESORIOS/Aros y diges/4.jpg",
+        "categoria": {
+            "nombre": "Accesorio",
+            "subcategoria": "aros",
+            "id": "accesorio"
+        },
+        "precio": 12000
+    },
+    {
+        "id": "carteras-01",
+        "titulo": "Cartera Sailor",
+        "imagen": "/Ecommerce-Frontend-M2/ASSETS/IMG/ACCESORIOS/Carteras/1.jpg",
+        "categoria": {
+            "nombre": "Accesorio",
+            "subcategoria": "carteras",
+            "id": "accesorio"
+        },
+        "precio": 32000
+    },
+    {
+        "id": "carteras-02",
+        "titulo": "Cartera Magic",
+        "imagen": "/Ecommerce-Frontend-M2/ASSETS/IMG/ACCESORIOS/Carteras/2.jpg",
+        "categoria": {
+            "nombre": "Accesorio",
+            "subcategoria": "carteras",
+            "id": "accesorio"
+        },
+        "precio": 41000
+    },
+    {
+        "id": "carteras-03",
+        "titulo": "Cartera Cel",
+        "imagen": "/Ecommerce-Frontend-M2/ASSETS/IMG/ACCESORIOS/Carteras/3.jpg",
+        "categoria": {
+            "nombre": "Accesorio",
+            "subcategoria": "carteras",
+            "id": "accesorio"
+        },
+        "precio": 37000
+    },
+    {
+        "id": "carteras-04",
+        "titulo": "Cartera Moon",
+        "imagen": "/Ecommerce-Frontend-M2/ASSETS/IMG/ACCESORIOS/Carteras/4.jpg",
+        "categoria": {
+            "nombre": "Accesorio",
+            "subcategoria": "carteras",
+            "id": "accesorio"
+        },
+        "precio": 28000
+    },
+    {
+        "id": "cosmetiqueros-01",
+        "titulo": "Cosmetiqueros 01",
+        "imagen": "/Ecommerce-Frontend-M2/ASSETS/IMG/ACCESORIOS/cosmetiqueros y más/1.jpg",
+        "categoria": {
+            "nombre": "Accesorio",
+            "subcategoria": "cosmetiqueros",
+            "id": "accesorio"
+        },
+        "precio": 16000
+    },
+    {
+        "id": "cosmetiqueros-02",
+        "titulo": "Cosmetiqueros 02",
+        "imagen": "/Ecommerce-Frontend-M2/ASSETS/IMG/ACCESORIOS/cosmetiqueros y más/2.jpg",
+        "categoria": {
+            "nombre": "Accesorio",
+            "subcategoria": "cosmetiqueros",
+            "id": "accesorio"
+        },
+        "precio": 10000
+    },
+    {
+        "id": "cosmetiqueros-03",
+        "titulo": "Cosmetiqueros 03",
+        "imagen": "/Ecommerce-Frontend-M2/ASSETS/IMG/ACCESORIOS/cosmetiqueros y más/3.jpg",
+        "categoria": {
+            "nombre": "Accesorio",
+            "subcategoria": "cosmetiqueros",
+            "id": "accesorio"
+        },
+        "precio": 10000
+    },
+    {
+        "id": "cosmetiqueros-04",
+        "titulo": "Cosmetiqueros 04",
+        "imagen": "/Ecommerce-Frontend-M2/ASSETS/IMG/ACCESORIOS/cosmetiqueros y más/4.jpg",
+        "categoria": {
+            "nombre": "Accesorio",
+            "subcategoria": "cosmetiqueros",
+            "id": "accesorio"
+        },
+        "precio": 9000
+    },
+    {
+        "id": "perfumes-01",
+        "titulo": "Perfume R",
+        "imagen": "/Ecommerce-Frontend-M2/ASSETS/IMG/ACCESORIOS/Perfumes/1.jpg",
+        "categoria": {
+            "nombre": "Accesorio",
+            "subcategoria": "perfumes",
+            "id": "accesorio"
+        },
+        "precio": 18000
+    },
+    {
+        "id": "perfumes-02",
+        "titulo": "Perfume S",
+        "imagen": "/Ecommerce-Frontend-M2/ASSETS/IMG/ACCESORIOS/Perfumes/2.jpg",
+        "categoria": {
+            "nombre": "Accesorio",
+            "subcategoria": "perfumes",
+            "id": "accesorio"
+        },
+        "precio": 20000
+    },
+    {
+        "id": "perfumes-03",
+        "titulo": "Perfumes M",
+        "imagen": "/Ecommerce-Frontend-M2/ASSETS/IMG/ACCESORIOS/Perfumes/3.jpg",
+        "categoria": {
+            "nombre": "Accesorio",
+            "subcategoria": "perfumes",
+            "id": "accesorio"
+        },
+        "precio": 27000
+    },
+    {
+        "id": "perfumes-04",
+        "titulo": "Perfumes C",
+        "imagen": "/Ecommerce-Frontend-M2/ASSETS/IMG/ACCESORIOS/Perfumes/4.jpg",
+        "categoria": {
+            "nombre": "Accesorio",
+            "subcategoria": "perfumes",
+            "id": "accesorio"
+        },
+        "precio": 15000
+    },
+    {
+        "id": "relojes-01",
+        "titulo": "Reloj Mag",
+        "imagen": "/Ecommerce-Frontend-M2/ASSETS/IMG/ACCESORIOS/Relojes/1.jpg",
+        "categoria": {
+            "nombre": "Accesorio",
+            "subcategoria": "relojes",
+            "id": "accesorio"
+        },
+        "precio": 45000
+    },
+    {
+        "id": "relojes-02",
+        "titulo": "Reloj Hom",
+        "imagen": "/Ecommerce-Frontend-M2/ASSETS/IMG/ACCESORIOS/Relojes/2.jpg",
+        "categoria": {
+            "nombre": "Accesorio",
+            "subcategoria": "relojes",
+            "id": "accesorio"
+        },
+        "precio": 45000
+    },
+    {
+        "id": "relojes-03",
+        "titulo": "Reloj Sak",
+        "imagen": "/Ecommerce-Frontend-M2/ASSETS/IMG/ACCESORIOS/Relojes/3.jpg",
+        "categoria": {
+            "nombre": "Accesorio",
+            "subcategoria": "relojes",
+            "id": "accesorio"
+        },
+        "precio": 33000
+    },
+    {
+        "id": "relojes-04",
+        "titulo": "Reloj Dar",
+        "imagen": "/Ecommerce-Frontend-M2/ASSETS/IMG/ACCESORIOS/Relojes/7.jpg",
+        "categoria": {
+            "nombre": "Accesorio",
+            "subcategoria": "relojes",
+            "id": "accesorio"
+        },
+        "precio": 33000
+    },
+
+    {
+        "id": "rostro-01",
+        "titulo": "Bases Col",
+        "imagen": "/Ecommerce-Frontend-M2/ASSETS/IMG/COSMETICOS/Rostro/bases.jpg",
+        "categoria": {
+            "nombre": "Cosmetico",
+            "subcategoria": "rostro",
+            "id": "cosmeticos"
+        },
+        "precio": 18750
+    },
+    {
+        "id": "rostro-02",
+        "titulo": "Conturn Mag ",
+        "imagen": "/Ecommerce-Frontend-M2/ASSETS/IMG/COSMETICOS/Rostro/contorneador.png",
+        "categoria": {
+            "nombre": "Cosmetico",
+            "subcategoria": "rostro",
+            "id": "cosmeticos"
+        },
+        "precio": 11990
+    },
+    {
+        "id": "rostro-03",
+        "titulo": "Corrector M",
+        "imagen": "/Ecommerce-Frontend-M2/ASSETS/IMG/COSMETICOS/Rostro/corrector1.png",
+        "categoria": {
+            "nombre": "Cosmetico",
+            "subcategoria": "rostro",
+            "id": "cosmeticos"
+        },
+        "precio": 10870
+    },
+    {
+        "id": "rostro-04",
+        "titulo": "Polvo Mag",
+        "imagen": "/Ecommerce-Frontend-M2/ASSETS/IMG/COSMETICOS/Rostro/polvocompacto1.jpg",
+        "categoria": {
+            "nombre": "Cosmetico",
+            "subcategoria": "rostro",
+            "id": "cosmeticos"
+        },
+        "precio": 14550
+    },
+    {
+        "id": "ojos-01",
+        "titulo": "Delineadores",
+        "imagen": "/Ecommerce-Frontend-M2/ASSETS/IMG/COSMETICOS/Ojos/delineador de ojoscolores.jpg",
+        "categoria": {
+            "nombre": "Cosmetico",
+            "subcategoria": "ojos",
+            "id": "cosmeticos"
+        },
+        "precio": 8430
+    },
+    {
+        "id": "ojos-02",
+        "titulo": "Rimel Mag",
+        "imagen": "/Ecommerce-Frontend-M2/ASSETS/IMG/COSMETICOS/Ojos/rimel.jpg",
+        "categoria": {
+            "nombre": "Cosmetico",
+            "subcategoria": "ojos",
+            "id": "cosmeticos"
+        },
+        "precio": 10990
+    },
+    {
+        "id": "ojos-03",
+        "titulo": "Sombra Ojos",
+        "imagen": "/Ecommerce-Frontend-M2/ASSETS/IMG/COSMETICOS/Ojos/sombra de ojos.jpg",
+        "categoria": {
+            "nombre": "Cosmetico",
+            "subcategoria": "ojos",
+            "id": "cosmeticos"
+        },
+        "precio": 29380
+    },
+    {
+        "id": "ojos-04",
+        "titulo": "Sombra Gel",
+        "imagen": "/Ecommerce-Frontend-M2/ASSETS/IMG/COSMETICOS/Ojos/sombrasgel.jpg",
+        "categoria": {
+            "nombre": "Cosmetico",
+            "subcategoria": "ojos",
+            "id": "cosmeticos"
+        },
+        "precio": 9000
+    },
+    {
+        "id": "labios-01",
+        "titulo": "Labial Magic",
+        "imagen": "/Ecommerce-Frontend-M2/ASSETS/IMG/COSMETICOS/Labios/labialesprimarios.jpg",
+        "categoria": {
+            "nombre": "Cosmetico",
+            "subcategoria": "labios",
+            "id": "cosmeticos"
+        },
+        "precio": 13000
+    },
+    {
+        "id": "labios-02",
+        "titulo": "Labial Sail",
+        "imagen": "/Ecommerce-Frontend-M2/ASSETS/IMG/COSMETICOS/Labios/labialessailor.jpg",
+        "categoria": {
+            "nombre": "Cosmetico",
+            "subcategoria": "labios",
+            "id": "cosmeticos"
+        },
+        "precio": 7000
+    },
+    {
+        "id": "labios-03",
+        "titulo": "Labial Sak",
+        "imagen": "/Ecommerce-Frontend-M2/ASSETS/IMG/COSMETICOS/Labios/labialessaku.jpg",
+        "categoria": {
+            "nombre": "Cosmetico",
+            "subcategoria": "labios",
+            "id": "cosmeticos"
+        },
+        "precio": 7000
+    },
+    {
+        "id": "labios-04",
+        "titulo": "Labial Lapiz",
+        "imagen": "/Ecommerce-Frontend-M2/ASSETS/IMG/COSMETICOS/Labios/delineadorlabial y ojos.jpg",
+        "categoria": {
+            "nombre": "Cosmetico",
+            "subcategoria": "labios",
+            "id": "cosmeticos"
+        },
+        "precio": 11000
+    }, 
+    {
+        "id": "herramientas-01",
+        "titulo": "Cepillo Mag",
+        "imagen": "/Ecommerce-Frontend-M2/ASSETS/IMG/COSMETICOS/Herramientas/cepillomag.jpg",
+        "categoria": {
+            "nombre": "Cosmetico",
+            "subcategoria": "herramientas",
+            "id": "cosmeticos"
+        },
+        "precio": 11670
+    },
+    {
+        "id": "herramientas-02",
+        "titulo": "Mascarilla Fac",
+        "imagen": "/Ecommerce-Frontend-M2/ASSETS/IMG/COSMETICOS/Herramientas/mascarasail.jpg",
+        "categoria": {
+            "nombre": "Cosmetico",
+            "subcategoria": "herramientas",
+            "id": "cosmeticos"
+        },
+        "precio": 1000
+    },
+    {
+        "id": "herramientas-03",
+        "titulo": "Secador Pelo",
+        "imagen": "/Ecommerce-Frontend-M2/ASSETS/IMG/COSMETICOS/Herramientas/secadorpelmar.jpg",
+        "categoria": {
+            "nombre": "Cosmetico",
+            "subcategoria": "herramientas",
+            "id": "cosmeticos"
+        },
+        "precio": 28990
+    },
+    {
+        "id": "herramientas-04",
+        "titulo": "Risador Mag",
+        "imagen": "/Ecommerce-Frontend-M2/ASSETS/IMG/COSMETICOS/Herramientas/risadorpestaña.jpg",
+        "categoria": {
+            "nombre": "Cosmetico",
+            "subcategoria": "herramientas",
+            "id": "cosmeticos"
+        },
+        "precio": 4800
+    },
+
+    {
+        "id": "poleras-01",
+        "titulo": "Blusa corta",
+        "imagen": "/Ecommerce-Frontend-M2/ASSETS/IMG/VESTUARIO/Poleras/bluza negra.jpg",
+        "categoria": {
+            "nombre": "Vestuario",
+            "subcategoria": "poleras",
+            "id": "vestuario"
+        },
+        "precio": 19900
+    }, 
+    {
+        "id": "poleras-02",
+        "titulo": "Top",
+        "imagen": "/Ecommerce-Frontend-M2/ASSETS/IMG/VESTUARIO/Poleras/tops.jpg",
+        "categoria": {
+            "nombre": "Vestuario",
+            "subcategoria": "poleras",
+            "id": "vestuario"
+        },
+        "precio": 12650
+    }, 
+    {
+        "id": "poleras-03",
+        "titulo": "Corset top",
+        "imagen": "/Ecommerce-Frontend-M2/ASSETS/IMG/VESTUARIO/Poleras/corsetpol.jpg",
+        "categoria": {
+            "nombre": "Vestuario",
+            "subcategoria": "poleras",
+            "id": "vestuario"
+        },
+        "precio": 17420
+    }, 
+    {
+        "id": "poleras-04",
+        "titulo": "Blusa larga",
+        "imagen": "/Ecommerce-Frontend-M2/ASSETS/IMG/VESTUARIO/Poleras/blusa.jpg",
+        "categoria": {
+            "nombre": "Vestuario",
+            "subcategoria": "poleras",
+            "id": "vestuario"
+        },
+        "precio": 21900
+    },
+    {
+        "id": "pantalones-01",
+        "titulo": "Jeans estampado",
+        "imagen": "/Ecommerce-Frontend-M2/ASSETS/IMG/VESTUARIO/Pantalones-faldas/estiloso marc.jpg",
+        "categoria": {
+            "nombre": "Vestuario",
+            "subcategoria": "pantalones",
+            "id": "vestuario"
+        },
+        "precio": 22740
+    }, 
+    {
+        "id": "pantalones-02",
+        "titulo": "Faldas Magical",
+        "imagen": "/Ecommerce-Frontend-M2/ASSETS/IMG/VESTUARIO/Pantalones-faldas/fald.jpg",
+        "categoria": {
+            "nombre": "Vestuario",
+            "subcategoria": "pantalones",
+            "id": "vestuario"
+        },
+        "precio": 17000
+    }, 
+    {
+        "id": "pantalones-03",
+        "titulo": "Pantalones de tela",
+        "imagen": "/Ecommerce-Frontend-M2/ASSETS/IMG/VESTUARIO/Pantalones-faldas/pantalonmarck.jpg",
+        "categoria": {
+            "nombre": "Vestuario",
+            "subcategoria": "pantalones",
+            "id": "vestuario"
+        },
+        "precio": 33760
+    }, 
+    {
+        "id": "pantalones-04",
+        "titulo": "Jeans flare",
+        "imagen": "/Ecommerce-Frontend-M2/ASSETS/IMG/VESTUARIO/Pantalones-faldas/jeansfl.jpg",
+        "categoria": {
+            "nombre": "Vestuario",
+            "subcategoria": "pantalones",
+            "id": "vestuario"
+        },
+        "precio": 22400
+    }, 
+    {
+        "id": "conjuntos-01",
+        "titulo": "Conjunto lila",
+        "imagen": "/Ecommerce-Frontend-M2/ASSETS/IMG/VESTUARIO/Conjuntos/ejegant.jpg",
+        "categoria": {
+            "nombre": "Vestuario",
+            "subcategoria": "conjuntos",
+            "id": "vestuario"
+        },
+        "precio": 41300
+    }, 
+    {
+        "id": "conjuntos-02",
+        "titulo": "Conjunto Magical",
+        "imagen": "/Ecommerce-Frontend-M2/ASSETS/IMG/VESTUARIO/Conjuntos/marcaconjun.jpg",
+        "categoria": {
+            "nombre": "Vestuario",
+            "subcategoria": "conjuntos",
+            "id": "vestuario"
+        },
+        "precio": 72400
+    }, 
+    {
+        "id": "conjuntos-03",
+        "titulo": "Pijama",
+        "imagen": "/Ecommerce-Frontend-M2/ASSETS/IMG/VESTUARIO/Conjuntos/pijamasa.jpg",
+        "categoria": {
+            "nombre": "Vestuario",
+            "subcategoria": "conjuntos",
+            "id": "vestuario"
+        },
+        "precio": 22900
+    }, 
+    {
+        "id": "conjuntos-04",
+        "titulo": "Traje de baño",
+        "imagen": "/Ecommerce-Frontend-M2/ASSETS/IMG/VESTUARIO/Conjuntos/trajs.jpg",
+        "categoria": {
+            "nombre": "Vestuario",
+            "subcategoria": "conjuntos",
+            "id": "vestuario"
+        },
+        "precio": 22000
+    }, 
+    {
+        "id": "vestidos-01",
+        "titulo": "Vestido ajustado",
+        "imagen": "/Ecommerce-Frontend-M2/ASSETS/IMG/VESTUARIO/Vestidos/sex.jpg",
+        "categoria": {
+            "nombre": "Vestuario",
+            "subcategoria": "vestidos",
+            "id": "vestuario"
+        },
+        "precio": 17900
+    },   
+    {
+        "id": "vestidos-02",
+        "titulo": "Vestido blangro",
+        "imagen": "/Ecommerce-Frontend-M2/ASSETS/IMG/VESTUARIO/Vestidos/blan.jpg",
+        "categoria": {
+            "nombre": "Vestuario",
+            "subcategoria": "vestidos",
+            "id": "vestuario"
+        },
+        "precio": 23000
+    }, 
+    {
+        "id": "vestidos-03",
+        "titulo": "Vestido lilrose",
+        "imagen": "/Ecommerce-Frontend-M2/ASSETS/IMG/VESTUARIO/Vestidos/mulcol.jpg",
+        "categoria": {
+            "nombre": "Vestuario",
+            "subcategoria": "vestidos",
+            "id": "vestuario"
+        },
+        "precio": 25900
+    }, 
+    {
+        "id": "vestidos-04",
+        "titulo": "Vestido Magical",
+        "imagen": "/Ecommerce-Frontend-M2/ASSETS/IMG/VESTUARIO/Vestidos/sexmar.jpg",
+        "categoria": {
+            "nombre": "Vestuario",
+            "subcategoria": "vestidos",
+            "id": "vestuario"
+        },
+        "precio": 28000
+    },  
+    {
+        "id": "matrimonio-01",
+        "titulo": "Traje de Hombre",
+        "imagen": "/Ecommerce-Frontend-M2/ASSETS/IMG/VESTUARIO/Tajes de matrimonio/hombremarc.jpg",
+        "categoria": {
+            "nombre": "Vestuario",
+            "subcategoria": "matrimonio",
+            "id": "vestuario"
+        },
+        "precio": 118000
+    }, 
+    {
+        "id": "matrimonio-02",
+        "titulo": "Vestido lilMagic",
+        "imagen": "/Ecommerce-Frontend-M2/ASSETS/IMG/VESTUARIO/Tajes de matrimonio/vestmarck4.jpg",
+        "categoria": {
+            "nombre": "Vestuario",
+            "subcategoria": "matrimonio",
+            "id": "vestuario"
+        },
+        "precio": 142000
+    },
+    {
+        "id": "matrimonio-03",
+        "titulo": "Vestido Princes",
+        "imagen": "/Ecommerce-Frontend-M2/ASSETS/IMG/VESTUARIO/Tajes de matrimonio/vestidomatrimarc.jpg",
+        "categoria": {
+            "nombre": "Vestuario",
+            "subcategoria": "matrimonio",
+            "id": "vestuario"
+        },
+        "precio": 345000
+    },
+    {
+        "id": "matrimonio-04",
+        "titulo": "Hombre Princes",
+        "imagen": "/Ecommerce-Frontend-M2/ASSETS/IMG/VESTUARIO/Tajes de matrimonio/trajehombremarck.jpg",
+        "categoria": {
+            "nombre": "Vestuario",
+            "subcategoria": "matrimonio",
+            "id": "vestuario"
+        },
+        "precio": 345000
+    }, 
+    {
+        "id": "abrigos-01",
+        "titulo": "Chaqueta",
+        "imagen": "/Ecommerce-Frontend-M2/ASSETS/IMG/VESTUARIO/Abrigos-chaquetas/chaquetasailo.jpg",
+        "categoria": {
+            "nombre": "Vestuario",
+            "subcategoria": "abrigos",
+            "id": "vestuario"
+        },
+        "precio": 31400
+    },
+    {
+        "id": "abrigos-02",
+        "titulo": "Blazer",
+        "imagen": "/Ecommerce-Frontend-M2/ASSETS/IMG/VESTUARIO/Abrigos-chaquetas/blaiserformal.jpg",
+        "categoria": {
+            "nombre": "Vestuario",
+            "subcategoria": "abrigos",
+            "id": "vestuario"
+        },
+        "precio": 44700
+    },
+    {
+        "id": "abrigos-03",
+        "titulo": "Abrigos",
+        "imagen": "/Ecommerce-Frontend-M2/ASSETS/IMG/VESTUARIO/Abrigos-chaquetas/abrigosinspiradosenmarca.jpg",
+        "categoria": {
+            "nombre": "Vestuario",
+            "subcategoria": "abrigos",
+            "id": "vestuario"
+        },
+        "precio": 73490
+    },
+    {
+        "id": "abrigos-04",
+        "titulo": "Abrigo largo",
+        "imagen": "/Ecommerce-Frontend-M2/ASSETS/IMG/VESTUARIO/Abrigos-chaquetas/abrigodemarca.jpg",
+        "categoria": {
+            "nombre": "Vestuario",
+            "subcategoria": "abrigos",
+            "id": "vestuario"
+        },
+        "precio": 73490
+    },
+    {
+        "id": "calzado-01",
+        "titulo": "Zap Magic",
+        "imagen": "/Ecommerce-Frontend-M2/ASSETS/IMG/VESTUARIO/Calzado/unnamedmujer.jpg",
+        "categoria": {
+            "nombre": "Vestuario",
+            "subcategoria": "calzado",
+            "id": "vestuario"
+        },
+        "precio": 82600
+    },
+    {
+        "id": "calzado-02",
+        "titulo": "Zap Sailor",
+        "imagen": "/Ecommerce-Frontend-M2/ASSETS/IMG/VESTUARIO/Calzado/sailorzap.jpg",
+        "categoria": {
+            "nombre": "Vestuario",
+            "subcategoria": "calzado",
+            "id": "vestuario"
+        },
+        "precio": 79000
+    },
+    {
+        "id": "calzado-03",
+        "titulo": "Zap Magical H",
+        "imagen": "/Ecommerce-Frontend-M2/ASSETS/IMG/VESTUARIO/Calzado/hombrezapmarc.jpg",
+        "categoria": {
+            "nombre": "Vestuario",
+            "subcategoria": "calzado",
+            "id": "vestuario"
+        },
+        "precio": 81990
+    },
+    {
+        "id": "calzado-04",
+        "titulo": "Zapatillas",
+        "imagen": "/Ecommerce-Frontend-M2/ASSETS/IMG/VESTUARIO/Calzado/unnamedzapatilla.jpg",
+        "categoria": {
+            "nombre": "Vestuario",
+            "subcategoria": "calzado",
+            "id": "vestuario"
+        },
+        "precio": 41580
+    }
+  
+]

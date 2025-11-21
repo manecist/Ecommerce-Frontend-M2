@@ -63,9 +63,9 @@
                             <img src="ASSETS/IMG/inicio sesion.png" class="d-inline align-top img-fluid" width="40" height="40" alt="">
                         </a>
                         
-                        <a class="btn btn-dark carrito" href="#"> <!--agrego clase carrito para css-->
+                        <a class="btn btn-dark carrito" href="carrito.html"> <!--agrego clase carrito para css-->
                             <img src="ASSETS/IMG/carrito.png" class="d-inline align-top img-fluid" width="40" height="40" alt="">
-                            <span id="numeroCarrito" data-action="cart-add" class="badge rounded-circle">0</span>
+                            <span id="numerito" data-action="cart-add" class="badge rounded-circle numerito">0</span>
                             <!--doy id a mi numero de carrito, aplico atributo personalizado al carrito, con un icono redondo en la parte superior -->
                         </a>
               
@@ -79,40 +79,28 @@
             <div class="container text-center mt-5 shadow" id="presentCosmeticos">
                 <h1 class="display-3 fw-bolder">Cosméticos</h1>
                 <div class="lead fst-italic">
-                    <h5 class="fw-bolder">💄 El Arsenal Mágico de Magic Alliance</h5>
-                    <H6 class="fw-bolder">El Poder de Transformar tu Belleza</H6>
+                    <h4 class="fw-bolder">💄 El Arsenal Mágico de Magic Alliance</h4>
+                    <H5 class="fw-bolder">El Poder de Transformar tu Belleza</H5>
+                    <h6>Eleva tu rutina de belleza a un ritual de transformación. 
+                        En Magic Alliance, cada producto es una pieza esencial en tu arsenal para deslumbrar con 
+                        elegancia y poder. Nuestra colección te ofrece la alquimia perfecta para cada detalle</h6>
                 </div>
                 <div>
-                    <ul class="list-unstyled pb-2">Eleva tu rutina de belleza a un ritual de transformación. 
-                        En Magic Alliance, cada producto es una pieza esencial en tu arsenal para deslumbrar con elegancia y poder.
-                        Nuestra colección te ofrece la alquimia perfecta para cada detalle
-                        <li>
-                            Labios con Hechizo: Tonos vibrantes y fórmulas seductoras que son la firma de tu personalidad.
-                        </li>
-                        <li>
-                            Mirada Estelar: Paletas de sombras de ojos llenas de pigmentos de ensueño para crear un impacto 
-                            visual magnético.
-                        </li>
-                        <li>
-                            Rostro Radiante: Bases y contornos que perfeccionan tu piel, revelando un lienzo impecable, 
-                            digno de una heroína.
-                        </li>
-                        <li>
-                            Herramientas de Poder: Brochas y accesorios diseñados con precisión para aplicar la magia sin esfuerzo.
-                        </li>
-                    </ul>
-                    <p class="fw-bolder fst-italic pb-4">💖 Descubre la elegancia de la transformación. Tu estilo, tu magia.</p>
-
+                    <p class="fw-bolder fst-italic pb-4 text-center">💖 Descubre la elegancia de la transformación. 
+                        Tu estilo, tu magia.
+                    </p>
                 </div>
-            
+
             </div>
             
-            <div class="colorFondoBoton container mt-4 mb-4"><!--Botones referenciado con a encerrados en div ovalado para tener hover mas atractivo al pasar el mouse-->
-                <div class="btn-group" role="group" aria-label="Grupo de botones con opciones">
-                    <button id="herramientas" type="button" class="btn btn-primary text-white boton-categoria">Herramientas</button>
-                    <button id="cosmeticos" type="button" class="btn btn-primary text-white boton-categoria active">Ambos</button>
-                    <button id="labios" type="button" class="btn btn-primary text-white boton-categoria">Labios</button>
-                </div>
+            <div class="container d-flex justify-content-center align-items-center text-wrap flex-sm-row flex-column mt-4 mb-4 mx-auto"><!--Botones referenciado con a encerrados en div ovalado para tener hover mas atractivo al pasar el mouse-->
+                
+                <button id="cosmeticos" type="button" class="btn text-white boton-categoria active">Ambos</button>
+                <button id="rostro" type="button" class="btn text-white boton-categoria">Rostro</button>
+                <button id="ojos" type="button" class="btn text-white boton-categoria">Ojos</button>
+                <button id="labios" type="button" class="btn text-white boton-categoria">Labios</button>
+                <button id="herramientas" type="button" class="btn text-white boton-categoria">Herramientas</button>
+               
             </div>
             <section class=" text-center"> <!--cartas de presentacion de cosmeticos-->
 
@@ -125,6 +113,9 @@
 
         </main>
 
+        <div class="float m-4"><a class="desplazarArriba" href="#titulo" id="btnSubir"> <img src="ASSETS/IMG/baculo4.png" 
+            alt="" width="90px" height="90px" class="img-fluid"> </a>
+        </div>
 
         <footer class="border-top border-3 ps-3 mt-5">
             <div class="container-fluid row row-cols-3 flex-row d-flex justify-content-center align-items-center text-body-secondary mt-1 vh-50">
@@ -157,7 +148,7 @@
 
                 <form class="mx-auto align-items-center pe-3 flex-column d-flex col-12 col-sm-6 col-md-4 col-lg-4">
                     <div>
-                        <label for="email" class="form-label fw-bolder">Enterate de nuestras promociones y novedades</label>
+                        <label for="emailSubscripcion" class="form-label fw-bolder">Enterate de nuestras promociones y novedades</label>
                         <input type="email" class="form-control" id="emailSubscripcion" placeholder="nombre@ejemplo.com">
                     </div>
                     <div class="row justify-content-center mt-2">
@@ -178,6 +169,6 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" 
      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
-    <script src="ASSETS/JS/ecommerce.js"></script>
+    <script src="ASSETS/JS/cosmeticos.js"></script>
 </body>
 </html>
