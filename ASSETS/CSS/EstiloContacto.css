@@ -1,5 +1,5 @@
 body { /*Fondo*/
-    background: radial-gradient( #c37bff, #f480ff, #ffffff, #7bc1ff, rgb(127, 255, 227)); /* Gradiente de 4 colores */
+    background:linear-gradient( #c37bff, #f480ff, #ffffff, #7bc1ff, rgb(127, 255, 227)); /* Gradiente de 4 colores */
     min-height: 100vh;
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;

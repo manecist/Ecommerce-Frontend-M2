@@ -12,3 +12,4 @@ Cambios en el codigo, agregar mas html como cosmetico, vestuario y accesorios pa
 
 Se integran imagenes al home y carrusel, se despliegan css y html anexos para formulario y el resto de paginas
 
+Se realiza pagina de productos en .json se confiura con javaScript, se les da estilo con css, se revisa responsive de pagina y se corrigen errores
