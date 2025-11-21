@@ -15,5 +15,4 @@ Se integran imagenes al home y carrusel, se despliegan css y html anexos para fo
 <<<<<<< HEAD
 Se realiza pagina de productos en .json se confiura con javaScript, se les da estilo con css, se revisa responsive de pagina y se corrigen errores
 =======
-Se realiza pagina de productos en .json se confiura con javaScript, se les da estilo con css, se revisa responsive de pagina y se corrigen errores
->>>>>>> 95a436153ea169817b96f74643a6571fa95659d7
+
