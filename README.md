@@ -22,3 +22,5 @@ Se realiza pagina de productos en .json se configura con javaScript, se les da e
 =======
 
 >>>>>>> e3da60309c28c10acc884dec64c423d0cb379d56
+>>>>>>>
+>>>>>>> SE termina proyecto, por ahora
