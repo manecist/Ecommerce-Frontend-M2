@@ -1,9 +1,4 @@
-body { /*Fondo*/
-    background:linear-gradient( #c37bff, #f480ff, #ffffff, #7bc1ff, rgb(127, 255, 227)); /* Gradiente de 4 colores */
-    min-height: 100vh;
-    margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
-}
+
 
 #formularioContacto {
   border: none;
@@ -20,3 +15,9 @@ body { /*Fondo*/
   z-index: 1000; /* Asegura que esté por encima de otros elementos */
 }
 
+body { /*Fondo*/
+    background:linear-gradient( #c37bff, #f480ff, #ffffff, #7bc1ff, rgb(127, 255, 227)); /* Gradiente de 4 colores */
+    min-height: 100vh;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
