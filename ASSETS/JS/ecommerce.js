@@ -16,3 +16,21 @@ btnSubir.addEventListener("click", function() { //es mi funcion alerta para la c
       behavior: "smooth" // Para un desplazamiento suave
     });
 });
+
+const numerito = document.querySelector("#numerito");
+
+let productosEnCarrito;
+
+let productosEnCarritoLS = localStorage.getItem("productos-en-carrito");
+
+if (productosEnCarritoLS) {
+    productosEnCarrito = JSON.parse(productosEnCarritoLS);
+    actualizarNumerito();
+} else {
+    productosEnCarrito = [];
+}
+
+function actualizarNumerito() {
+    let nuevoNumerito = productosEnCarrito.reduce((acc, producto) => acc + producto.cantidad, 0);
+    numerito.innerText = nuevoNumerito;
+}
