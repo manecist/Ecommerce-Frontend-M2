@@ -1,4 +1,9 @@
-
+body { /*Fondo*/
+    background:linear-gradient( #c37bff, #f480ff, #ffffff, #7bc1ff, rgb(127, 255, 227)); /* Gradiente de 4 colores */
+    min-height: 100vh;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
 
 #formularioContacto {
   border: none;
@@ -8,6 +13,13 @@
   background-color: rgb(212, 173, 251);
 }
 
+#botonEnviar {
+  background-color: lightskyblue;
+  border-radius: 20px;
+  border: #c37bff;
+
+}
+
 #btnSubir { /*Boton subir*/
   position: fixed;
   bottom: 20px; /* Ajusta la distancia desde el borde inferior */
@@ -15,9 +27,3 @@
   z-index: 1000; /* Asegura que esté por encima de otros elementos */
 }
 
-body { /*Fondo*/
-    background:linear-gradient( #c37bff, #f480ff, #ffffff, #7bc1ff, rgb(127, 255, 227)); /* Gradiente de 4 colores */
-    min-height: 100vh;
-    margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
-}

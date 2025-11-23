@@ -1,52 +1,57 @@
-
+body { /*Fondo*/
+    background: radial-gradient(circle, #c37bff, #f480ff, #ffffff, #7bc1ff, rgb(127, 255, 227)); /* Gradiente de 4 colores */
+    min-height: 100vh;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
 
 .colorFondoBoton { /* color base del div boton home dimensionado*/
   border-radius: 20px; /* da borden redondo */
-  background-color: darkviolet; /* da color base */
-  width: 315px; /* ancho */
+  background-color: magenta; /* da color base */
+  width: 298px; /* ancho */
+  box-shadow:0px 5px 20px rgb(105, 7, 171);
 }
 
 .btn-group .btn {
   border-radius: 20px; /* da borden redondo */
   background-color:transparent; /* fondo transparente */
   border: none; /* Sin borden */
-  color: black; /* color letra */
-  transition: border-radius 0.3s ease; /* Suaviza la transición */
+  transition: border-radius 0.0s ease; /* Suaviza la transición */
+  right: 13px;
 }
 
 #boton1:hover {
   border-radius: 50px; /* Aplica bordes redondeados al pasar el ratón */
-  background-color: blueviolet; /* color de hover */
+  background-color: rgb(74, 165, 245); /* color de hover */
 }
 
 #boton2:hover {
   border-radius: 50px; /* Aplica bordes redondeados al pasar el ratón */
-  background-color: blueviolet;/* color de hover */
+  background-color: rgb(74, 165, 245);/* color de hover */
 }
 
 #boton3:hover {
   border-radius: 50px; /* Aplica bordes redondeados al pasar el ratón */
-  background-color: blueviolet;/* color de hover */
+  background-color: rgb(74, 165, 245);/* color de hover */
 }
 
 
 @media screen and (min-width: 768px) { /*Responsive*/
 .colorFondoBoton { /* color base del div boton home dimensionado*/
-  border-radius: 20px; /* da borden redondo */
-  background-color: darkviolet; /* da color base */
-  width: 600px; /* ancho */
+  border-radius: 50px; /* da borden redondo */
+  background-color: magenta; /* da color base */
+  width: 597px; /* ancho */
   position: relative;
-  right: 30;
+
 }
 
 .btn-group .btn {
   border-radius: 20px; /* da borden redondo */
   background-color:transparent; /* fondo transparente */
   border: none; /* Sin borden */
-  color: black; /* color letra */
-  transition: border-radius 0.3s ease; /* Suaviza la transición */
+  transition: border-radius 0.0s ease; /* Suaviza la transición */
   position: relative;
-  right: 11px;
+  right: 13px;
   font-size: 20px;
 }
 
@@ -142,11 +147,5 @@
   bottom: 20px; /* Ajusta la distancia desde el borde inferior */
   right: 20px;  /* Ajusta la distancia desde el borde derecho */
   z-index: 1000; /* Asegura que esté por encima de otros elementos */
-}
-
-body { /*Fondo*/
-    background: radial-gradient(circle, #c37bff, #f480ff, #ffffff, #7bc1ff, rgb(127, 255, 227)); /* Gradiente de 4 colores */
-    min-height: 100vh;
-    margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
+ 
 }

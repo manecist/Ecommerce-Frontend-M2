@@ -11,7 +11,6 @@ fetch("/Ecommerce-Frontend-M2/ASSETS/JS/productos.json")
 
 const contenedorProductos = document.querySelector("#contenedor-productos");
 const botonesCategorias = document.querySelectorAll(".boton-categoria");
-const tituloPrincipal = document.querySelector("#titulo-principal");
 let botonesAgregar = document.querySelectorAll(".producto-agregar");
 const numerito = document.querySelector("#numerito");
 
@@ -27,7 +26,7 @@ function cargarProductos(productosElegidos) {
         div.classList.add("producto");
         div.classList.add("card");
         div.innerHTML = `
-            <img class="producto-imagen img-fluid" src="${producto.imagen}" alt="${producto.titulo}">
+            <img class="producto-imagen img-fluid rounded-5 " src="${producto.imagen}" alt="${producto.titulo}">
             <div class="producto-detalles">
                 <h3 class="producto-titulo">${producto.titulo}</h3>
                 <p class="producto-precio">$${producto.precio}</p>
@@ -49,12 +48,9 @@ botonesCategorias.forEach(boton => {
         e.currentTarget.classList.add("active");
 
         if (e.currentTarget.id != "cosmeticos") {
-            const productoCategoria = productos.find(producto => producto.categoria.subcategoria === e.currentTarget.id);
-            tituloPrincipal.innerText = productoCategoria.categoria.subcategoria;
             const productosBoton = productos.filter(producto => producto.categoria.subcategoria === e.currentTarget.id);
             cargarProductos(productosBoton);
         } else {
-            tituloPrincipal.innerText = "Todos los productos";
             const productosBoton = productos.filter(producto => producto.categoria.id === e.currentTarget.id);
             cargarProductos(productosBoton);
         }
