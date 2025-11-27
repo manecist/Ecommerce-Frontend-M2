@@ -1,4 +1,4 @@
-Mi primer repositorio con mi proyecto del modulo 2.
+Mi primer repositorio con mi proyecto del modulo 2. https://manecist.github.io/Ecommerce-Frontend-M2/
 
 Se subio el navbar con carpeta img para las imagenes a utilizar.
 
