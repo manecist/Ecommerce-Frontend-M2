@@ -1,4 +1,10 @@
 # 🛒 Ecommerce Frontend
+Aplicación ecommerce desarrollada como parte de mi formación en desarrollo Full Stack.
+
+🔗 Parte de proyecto completo:
+Frontend | Backend | Base de Datos | CRUD
+
+---
 
 ## 📌 Descripción
 
