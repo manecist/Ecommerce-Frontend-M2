@@ -1,26 +1,48 @@
-Mi primer repositorio con mi proyecto del modulo 2. https://manecist.github.io/Ecommerce-Frontend-M2/
+# 🛒 Ecommerce Frontend
 
-Se subio el navbar con carpeta img para las imagenes a utilizar.
+## 📌 Descripción
 
-Modificacion de navbar.
+Proyecto frontend de una aplicación ecommerce desarrollado con HTML, CSS, JavaScript y Bootstrap.
+Simula la interfaz de una tienda online, permitiendo visualizar productos, navegar entre secciones y representar la experiencia de usuario.
 
-Se crea pie de pagina y se agregan mas imagenes a la carpeta img
+---
 
-Se modifica carpeta img, se crea main, section, article para "acerca de nosotros"
+## 🛠 Tecnologías
 
-Cambios en el codigo, agregar mas html como cosmetico, vestuario y accesorios para dar movilidad  a la pagina, modificar carrito
+HTML • CSS • JavaScript • Bootstrap 5
 
-Se integran imagenes al home y carrusel, se despliegan css y html anexos para formulario y el resto de paginas
+---
 
-<<<<<<< HEAD
-Se realiza pagina de productos en .json se configura con javaScript, se les da estilo con css, se revisa responsive de pagina y se corrigen errores
+## 🌐 Demo
 
-se termina proyecto de momento
-=======
-<<<<<<< HEAD
-Se realiza pagina de productos en .json se configura con javaScript, se les da estilo con css, se revisa responsive de pagina y se corrigen errores
-=======
+https://manecist.github.io/Ecommerce-Frontend-M2/
 
->>>>>>> e3da60309c28c10acc884dec64c423d0cb379d56
->>>>>>>
->>>>>>> SE termina proyecto, por ahora
+---
+
+## 📷 Vista del proyecto
+
+![preview](imagen.png)
+
+---
+
+## ⚙️ Funcionalidades
+
+✔ Visualización de productos
+✔ Diseño responsive
+✔ Navegación entre secciones
+✔ Simulación de carrito
+
+---
+
+## ▶️ Cómo ejecutar
+
+1. Clonar repositorio
+2. Abrir index.html en navegador
+
+---
+
+## 🚀 Mejoras futuras
+
+* Integración con backend
+* Conexión a base de datos
+* Sistema de login
