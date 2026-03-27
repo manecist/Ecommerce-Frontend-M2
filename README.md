@@ -50,7 +50,8 @@ https://manecist.github.io/Ecommerce-Frontend-M2/
 ## ▶️ Cómo ejecutar
 
 1. Clonar repositorio
-2. Abrir index.html en navegador
+2. Abrir desde VSCode con plugin de servlet live
+3. Abrir index.html en navegador
 
 ---
 
